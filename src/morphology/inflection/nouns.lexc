@@ -1,0 +1,64 @@
+!! Noun inflection
+!! ---------------
+!! The UNDEFINED language nouns inflect in cases.
+
+LEXICON Augmentation
++Aug:’a’    Number? ;
++Dim:Hom    Number? ;
+
+LEXICON Number
++Pl:pu’ NounQualification?  ;
++Pl:Du’ NounQualification?  ;
++Pl:mey NounQualification?  ;
++Pl:ray NounQualification?  ;
+
+LEXICON NounQualification
++Foc/qoq:qoq    Possession? ;
++Foc/Hey:Hey    Possession? ;
++Foc/na:na      Possession? ;
+
+LEXICON Possession
++PxSg1:wIj  Cases?  ;
++PxSg2:lIj  Cases?  ;
++PxSg3:Daj  Cases?  ;
++PxPl1:maj  Cases?  ;
++PxPl2:raj  Cases?  ;
++PxPl3:chaj Cases?  ;
++PxSg1:wI’  Cases?  ;
++PxSg2:lI’  Cases?  ;
++PxPl1:ma’  Cases?  ;
++PxPl2:ra’  Cases?  ;
++Foc/this:vam   Cases?  ;
++Foc/that:vetlh Cases?  ;
+
+LEXICON Cases
++Loc:Daq    #   ;
++Sep:vo’    #   ;
++Ins:mo’    #   ;
++Bnf:vaD    #   ;
++Foc:’e’    #   ;
+
+! Shorthands
+
+LEXICON Augmentation?
++N:0   Augmentation ;
++N:0   Number?  ;
+
+LEXICON Number?
+0   Number  ;
++Sg:0   NounQualification?  ;
+
+LEXICON NounQualification?
+0   NounQualification   ;
+0   Possession?  ;
+
+LEXICON Possession?
+0   Possession  ;
+0   Cases?  ;
+
+LEXICON Cases?
+0       Cases   ;
++Nom:0  #   ;
+
+! vim: set ft=xfst-lexc:
+

@@ -1,0 +1,162 @@
+!! Numerals
+!! --------
+!! Numerals in UNDEFINED language are numbers.
+
+LEXICON Numerals
+! 0
+pagh+Num:pagh   # ;
+! 1-9
+wa’+Num:wa’    #   ;
+cha’+Num:cha’    #   ;
+wej+Num:wej    #   ;
+IoS+Num:IoS    #   ;
+vagh+Num:vagh    #   ;
+jav+Num:jav   #   ;
+Soch+Num:Soch    #   ;
+chorgh+Num:chorgh    #   ;
+Hut+Num:Hut    #   ;
+
+! 10-90 etc. easy compounds
+wa’maH+Num:wa’maH    #   ;
+cha’maH+Num:cha’maH    #   ;
+wejmaH+Num:wejmaH    #   ;
+IoSmaH+Num:IoSmaH    #   ;
+vaghmaH+Num:vaghmaH    #   ;
+javmaH+Num:javmaH   #   ;
+SochmaH+Num:SochmaH    #   ;
+chorghmaH+Num:chorghmaH    #   ;
+HutmaH+Num:HutmaH    #   ;
+wa’vatlh+Num:wa’vatlh    #   ;
+cha’vatlh+Num:cha’vatlh    #   ;
+wejvatlh+Num:wejvatlh    #   ;
+IoSvatlh+Num:IoSvatlh    #   ;
+vaghvatlh+Num:vaghvatlh    #   ;
+javvatlh+Num:javvatlh   #   ;
+Sochvatlh+Num:Sochvatlh    #   ;
+chorghvatlh+Num:chorghvatlh    #   ;
+Hutvatlh+Num:Hutvatlh    #   ;
+wa’SaD+Num:wa’SaD    #   ;
+cha’SaD+Num:cha’SaD    #   ;
+wejSaD+Num:wejSaD    #   ;
+IoSSaD+Num:IoSSaD    #   ;
+vaghSaD+Num:vaghSaD    #   ;
+javSaD+Num:javSaD   #   ;
+SochSaD+Num:SochSaD    #   ;
+chorghSaD+Num:chorghSaD    #   ;
+HutSaD+Num:HutSaD    #   ;
+wa’SanID+Num:wa’SanID    #   ;
+cha’SanID+Num:cha’SanID    #   ;
+wejSanID+Num:wejSanID    #   ;
+IoSSanID+Num:IoSSanID    #   ;
+vaghSanID+Num:vaghSanID    #   ;
+javSanID+Num:javSanID   #   ;
+SochSanID+Num:SochSanID    #   ;
+chorghSanID+Num:chorghSanID    #   ;
+HutSanID+Num:HutSanID    #   ;
+wa’netlh+Num:wa’netlh    #   ;
+cha’netlh+Num:cha’netlh    #   ;
+wejnetlh+Num:wejnetlh    #   ;
+IoSnetlh+Num:IoSnetlh    #   ;
+vaghnetlh+Num:vaghnetlh    #   ;
+javnetlh+Num:javnetlh   #   ;
+Sochnetlh+Num:Sochnetlh    #   ;
+chorghnetlh+Num:chorghnetlh    #   ;
+Hutnetlh+Num:Hutnetlh    #   ;
+wa’bIp+Num:wa’bIp    #   ;
+cha’bIp+Num:cha’bIp    #   ;
+wejbIp+Num:wejbIp    #   ;
+IoSbIp+Num:IoSbIp    #   ;
+vaghbIp+Num:vaghbIp    #   ;
+javbIp+Num:javbIp   #   ;
+SochbIp+Num:SochbIp    #   ;
+chorghbIp+Num:chorghbIp    #   ;
+HutbIp+Num:HutbIp    #   ;
+wa’’uy’+Num:wa’’uy’    #   ;
+cha’’uy’+Num:cha’’uy’    #   ;
+wej’uy’+Num:wej’uy’    #   ;
+IoS’uy’+Num:IoS’uy’    #   ;
+vagh’uy’+Num:vagh’uy’    #   ;
+jav’uy’+Num:jav’uy’   #   ;
+Soch’uy’+Num:Soch’uy’    #   ;
+chorgh’uy’+Num:chorgh’uy’    #   ;
+Hut’uy’+Num:Hut’uy’    #   ;
+
+! 0th
+paghDIch+Num:paghDIch   # ;
+! 1st-9th
+wa’DIch+Num:wa’DIch    #   ;
+cha’DIch+Num:cha’DIch    #   ;
+wejDIch+Num:wejDIch    #   ;
+IoSDIch+Num:IoSDIch    #   ;
+vaghDIch+Num:vaghDIch    #   ;
+javDIch+Num:javDIch   #   ;
+SochDIch+Num:SochDIch    #   ;
+chorghDIch+Num:chorghDIch    #   ;
+HutDIch+Num:HutDIch    #   ;
+
+! 10th-90th etc. easy compounds
+wa’maHDIch+Num:wa’maHDIch    #   ;
+cha’maHDIch+Num:cha’maHDIch    #   ;
+wejmaHDIch+Num:wejmaHDIch    #   ;
+IoSmaHDIch+Num:IoSmaHDIch    #   ;
+vaghmaHDIch+Num:vaghmaHDIch    #   ;
+javmaHDIch+Num:javmaHDIch   #   ;
+SochmaHDIch+Num:SochmaHDIch    #   ;
+chorghmaHDIch+Num:chorghmaHDIch    #   ;
+HutmaHDIch+Num:HutmaHDIch    #   ;
+wa’vatlhDIch+Num:wa’vatlhDIch    #   ;
+cha’vatlhDIch+Num:cha’vatlhDIch    #   ;
+wejvatlhDIch+Num:wejvatlhDIch    #   ;
+IoSvatlhDIch+Num:IoSvatlhDIch    #   ;
+vaghvatlhDIch+Num:vaghvatlhDIch    #   ;
+javvatlhDIch+Num:javvatlhDIch   #   ;
+SochvatlhDIch+Num:SochvatlhDIch    #   ;
+chorghvatlhDIch+Num:chorghvatlhDIch    #   ;
+HutvatlhDIch+Num:HutvatlhDIch    #   ;
+wa’SaDDIch+Num:wa’SaDDIch    #   ;
+cha’SaDDIch+Num:cha’SaDDIch    #   ;
+wejSaDDIch+Num:wejSaDDIch    #   ;
+IoSSaDDIch+Num:IoSSaDDIch    #   ;
+vaghSaDDIch+Num:vaghSaDDIch    #   ;
+javSaDDIch+Num:javSaDDIch   #   ;
+SochSaDDIch+Num:SochSaDDIch    #   ;
+chorghSaDDIch+Num:chorghSaDDIch    #   ;
+HutSaDDIch+Num:HutSaDDIch    #   ;
+wa’SanIDDIch+Num:wa’SanIDDIch    #   ;
+cha’SanIDDIch+Num:cha’SanIDDIch    #   ;
+wejSanIDDIch+Num:wejSanIDDIch    #   ;
+IoSSanIDDIch+Num:IoSSanIDDIch    #   ;
+vaghSanIDDIch+Num:vaghSanIDDIch    #   ;
+javSanIDDIch+Num:javSanIDDIch   #   ;
+SochSanIDDIch+Num:SochSanIDDIch    #   ;
+chorghSanIDDIch+Num:chorghSanIDDIch    #   ;
+HutSanIDDIch+Num:HutSanIDDIch    #   ;
+wa’netlhDIch+Num:wa’netlhDIch    #   ;
+cha’netlhDIch+Num:cha’netlhDIch    #   ;
+wejnetlhDIch+Num:wejnetlhDIch    #   ;
+IoSnetlhDIch+Num:IoSnetlhDIch    #   ;
+vaghnetlhDIch+Num:vaghnetlhDIch    #   ;
+javnetlhDIch+Num:javnetlhDIch   #   ;
+SochnetlhDIch+Num:SochnetlhDIch    #   ;
+chorghnetlhDIch+Num:chorghnetlhDIch    #   ;
+HutnetlhDIch+Num:HutnetlhDIch    #   ;
+wa’bIpDIch+Num:wa’bIpDIch    #   ;
+cha’bIpDIch+Num:cha’bIpDIch    #   ;
+wejbIpDIch+Num:wejbIpDIch    #   ;
+IoSbIpDIch+Num:IoSbIpDIch    #   ;
+vaghbIpDIch+Num:vaghbIpDIch    #   ;
+javbIpDIch+Num:javbIpDIch   #   ;
+SochbIpDIch+Num:SochbIpDIch    #   ;
+chorghbIpDIch+Num:chorghbIpDIch    #   ;
+HutbIpDIch+Num:HutbIpDIch    #   ;
+wa’’uy’DIch+Num:wa’’uy’DIch    #   ;
+cha’’uy’DIch+Num:cha’’uy’DIch    #   ;
+wej’uy’DIch+Num:wej’uy’DIch    #   ;
+IoS’uy’DIch+Num:IoS’uy’DIch    #   ;
+vagh’uy’DIch+Num:vagh’uy’DIch    #   ;
+jav’uy’DIch+Num:jav’uy’DIch   #   ;
+Soch’uy’DIch+Num:Soch’uy’DIch    #   ;
+chorgh’uy’DIch+Num:chorgh’uy’DIch    #   ;
+Hut’uy’DIch+Num:Hut’uy’DIch    #   ;
+
+! vim: set ft=xfst-lexc:

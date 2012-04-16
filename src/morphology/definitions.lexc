@@ -1,0 +1,111 @@
+! Divvun & Giellatekno - open source grammars for Klingon language
+! Copyright © 2012 The University of Tromsø & the Norwegian Sámi Parliament
+! http://giellatekno.uit.no & http://divvun.no
+!
+! This program is free software; you can redistribute and/or modify
+! this file under the terms of the GNU General Public License as published by
+! the Free Software Foundation, either version 3 of the License, or
+! (at your option) any later version. The GNU General Public License
+! is found at http://www.gnu.org/licenses/gpl.html. It is
+! also available in the file $GTHOME/LICENSE.txt.
+!
+! Other licensing options are available upon request, please contact
+! giellatekno@hum.uit.no or divvun@samediggi.no
+
+!! Morphology
+!! ----------
+!! This is an example morphology, for the purpose of demonstrating giellatekno
+!! morphology infrastructure. The example language we use is a popular conlang
+!! by the name of tlhIngan, popularly known by the English name Klingon.
+
+
+Multichar_Symbols
+!! Analysis symbols
+!! ----------------
+!! The morphological analyses of wordforms of Klingon language are presented
+!! in this system in terms of following symbols.
+!! (It is highly suggested to follow existing standards when adding new tags).
+
+!! The parts-of-speech are:
+ +N +V +Pcle
+ +Pron +Num +Conj +Adv +Intj
+!! The nominals are inflected in following Numbers, cases and
+!! augmentation
+ +Sg +Du
+ +Loc +Sep +Ins +Bnf
+ +Aug +Dim
+
+!! The possession is marked as such:
+ +PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3
+
+!! Verb moods are:
+ +Ind +Imprt
+!! Verb tenses are:
+ +Cont +Perf +Prog
+!! Verb personal forms in intransitive are:
+ Sg1+ Sg2+ Sg3+ Pl1+ Pl2+ Pl3+
+!! The verb personal forms depending on object are:
+ Sg1/Sg2+ Sg1/Sg3+ Sg1/Pl2+ Sg1/Pl3+
+ Sg2/Sg1+ Sg2/Sg3+ Sg2/Pl1+ Sg1/Pl3+
+ Sg3/Sg1+ Sg3/Sg2+ Sg3/Pl1+ Sg3/Pl2+ Sg3/Sg3+ Sg3/Pl3+
+ Pl1/Sg2+ Pl1/Sg3+ Pl1/Pl2+ Pl1/Pl3+
+ Pl2/Sg1+ Pl2/Sg3+ Pl2/Pl1+ Pl2/Pl3+
+ Pl3/Sg1+ Pl3/Sg2+ Pl3/Pl1+ Pl3/Pl2+ Pl3/Sg3+ Pl3/Pl3+
+!! Other verb forms are
+ +Neg +Refl +Reciproc
+
+! Abbreviated words are classified with:
+ +ABBR +ACR 
+!! Special symbols are classified with:
++CLB +PUNCT +LEFT +RIGHT
+!! The verbs are syntactically split according to transitivity:
+ +TV +IV
+!! Special multiword units are analysed with:
+ +Multi
+!! Non-dictionary words can be recognised with:
+ +Guess
+
+!! Question and Focus particles:
+ +Qst +Foc
+ +Foc/this +Foc/that
+
+!! Semantics are classified with
+ +Mal +Fem +Sur 
+ +Plc 
+ +Org
+ +Obj
+ +Ani
+ +Hum
+ +Plant
+ +Group
+ +Time 
+ +Txt
+ +Route
+ +Measr 
+ +Wthr
+ +Build 
+ +Edu
+ +Veh
+ +Clth
+
+
+!! Derivations are classified under the morphophonetic form of the suffix, the
+!! source and target part-of-speech.
+ +V→N
+ +Der/wi
+
+
+LEXICON Root
+!! The word forms in Klingon language start from the lexeme roots of basic
+!! word classes.
+0   Adverbs ;
+0   Conjunctions    ;
+0   Interjections   ;
+0   Nouns   ;
+0   Pronouns    ;
+0   Numerals    ;
+!! The verbs require obligatory prefix that is the personal inflection or
+!! imperative mood
+0   VerbalPrefixes    ;
+
+! vim: set ft=xfst-lexc:

@@ -1,0 +1,137 @@
+!! Verb inflection
+!! ---------------
+!! The Klingon language verbs inflect in persons with obligatory prefixes, then
+!! ...
+
+LEXICON VerbalPrefixes
+Sg1+:jI     Verbs ;
+Sg2+:bI     Verbs ;
+Sg3+:0     Verbs ;
+Pl1+:ma     Verbs ;
+Pl2+:Su     Verbs ;
+Pl3+:0     Verbs ;
+Sg2/Sg1+:cho     Verbs ;
+Sg3/Sg1+:mu     Verbs ;
+Pl2/Sg1+:tu     Verbs ;
+Pl3/Sg1+:mu     Verbs ;
+Sg1/Sg2+:qa     Verbs ;
+Sg3/Sg2+:Du     Verbs ;
+Pl1/Sg2+:pI     Verbs ;
+Pl3/Sg2+:nI     Verbs ;
+Sg1/Sg3+:vI     Verbs ;
+Sg2/Sg3+:Da     Verbs ;
+Sg3/Sg3+:0     Verbs ;
+Pl1/Sg3+:wI     Verbs ;
+Pl2/Sg3+:bo     Verbs ;
+Pl3/Sg3+:lu     Verbs ;
+Sg2/Pl1+:ju     Verbs ;
+Sg3/Pl1+:nu     Verbs ;
+Pl2/Pl1+:che     Verbs ;
+Pl3/Pl1+:nu     Verbs ;
+Sg1/Pl2+:Sa     Verbs ;
+Sg3/Pl2+:lI     Verbs ;
+Pl1/Pl2+:re     Verbs ;
+Pl1/Pl2+:lI     Verbs ;
+Sg1/Pl3+:vI     Verbs ;
+Sg2/Pl3+:Da     Verbs ;
+Sg3/Pl3+:0     Verbs ;
+Pl1/Pl3+:DI     Verbs ;
+Pl2/Pl3+:bo     Verbs ;
+Pl3/Pl3+:0     Verbs ;
+Imprt+Sg2+:yI     Verbs ;
+Imprt+Pl2+:pe     Verbs ;
+Imprt+Sg2/Sg1+:HI     Verbs ;
+Imprt+Pl2/Sg1+:HI     Verbs ;
+Imprt+Sg2/Sg3+:yI     Verbs ;
+Imprt+Pl2/Sg3+:yI     Verbs ;
+Imprt+Pl2/Pl1+:gho     Verbs ;
+Imprt+Pl2/Pl1+:gho     Verbs ;
+Imprt+Pl2/Pl3+:tI     Verbs ;
+Imprt+Pl2/Pl3+:tI     Verbs ;
+
+LEXICON Reflexive
++Refl:’egh   Volition?   ;
++Reciproc:chuq  Volition?   ;
+
+LEXICON Volition
++Foc/nIs:nIS    Change? ;
++Foc/qang:qang  Change? ;
++Foc/rup:rup    Change? ;
++Foc/beH:beH    Change? ;
++Foc/vIp:vIp    Change? ;
+
+LEXICON Change
++Foc/choh:choh  Cause?  ;
++Foc:qa’    Cause?  ;
+
+LEXICON Cause
++Caus:moH   Definite?   ;
+
+LEXICON Definite
++Foc/lu’:lu’    Qualification?  ;
++Foc/laH:laH    Qualification?  ;
+
+LEXICON Qualification
++Foc/chu’:chu’  Aspect? ;
++Foc/bej:bej    Aspect? ;
++Foc/law’:law’  Aspect? ;
+
+LEXICON Aspect
++Perf:pu’   Honorific?  ;
++Perf:ta’   Honorific?  ;
++Cont:taH   Honorific?  ;
++Prog:lI’   Honorific?  ;
+
+LEXICON Honorific
++Honor:neS  Others? ;
+
+LEXICON Others
++Foc/DI’:DI’    #   ;
++Foc/chugh:chugh    #   ;
++Foc/pa’:pa’    #   ;
++Foc/vIS:vIS    #   ;
++Foc/bogh:bogh  #   ;
++Foc/meh:meH    #   ;
++Foc/Qst:’a’    #   ;
++V→N+Der/wI’:wI’    Augmentation?   ;
+
+! Shorthands
+
+LEXICON Reflexive?
++V:0   Reflexive   ;
++V:0    Volition?   ;
+
+LEXICON Volition?
+0   Volition    ;
+0   Change? ;
+
+LEXICON Change?
+0   Change  ;
+0   Cause?  ;
+
+LEXICON Cause?
+0   Cause   ;
+0   Definite?   ;
+
+LEXICON Definite?
+0   Definite    ;
+0   Qualification?   ;
+
+LEXICON Qualification?
+0   Qualification   ;
+0   Aspect? ;
+
+LEXICON Aspect?
+0   Aspect  ;
+0   Honorific?  ;
+
+LEXICON Honorific?
+0   Honorific   ;
+0   Others?  ;
+
+LEXICON Others?
+0   Others  ;
+0   #   ;
+
+! vim: set ft=xfst-lexc:
+
