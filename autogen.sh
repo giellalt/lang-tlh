@@ -11,5 +11,6 @@ fi
 if ! test -L am-shared ; then
     ln -s $GTCORE/am-shared am-shared
 fi
+
 # autoreconf should work for most platforms
 autoreconf -i
