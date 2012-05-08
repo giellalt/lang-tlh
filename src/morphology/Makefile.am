@@ -16,18 +16,18 @@
 ## along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 # Set this to name of lexc file containing Multichar_Symbols and LEXICON Root
-GT_LEXC_ROOT=definitions.lexc
+GT_LEXC_ROOT=root.lexc
 # Set this to names of all other lexc files
 GT_LEXC_SRCS=\
-			roots/adverbs.lexc \
-			roots/conjunctions.lexc \
-			roots/interjections.lexc \
-			roots/nouns.lexc \
-			roots/numerals.lexc \
-			roots/pronouns.lexc \
-			roots/verbs.lexc \
-			inflection/nouns.lexc \
-			inflection/verbs.lexc
+			stems/adverbs.lexc \
+			stems/conjunctions.lexc \
+			stems/interjections.lexc \
+			stems/nouns.lexc \
+			stems/numerals.lexc \
+			stems/pronouns.lexc \
+			stems/verbs.lexc \
+			affixes/nouns.lexc \
+			affixes/verbs.lexc
 include $(top_srcdir)/am-shared/lexc-include.am
 
 # vim: set ft=automake:
