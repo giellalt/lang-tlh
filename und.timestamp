@@ -1,6 +1,9 @@
-$Rev: 58471 $
+$Rev: 58478 $
 
 r:
+Replaced direct command calls with variables, completed and corrected a couple of commands, made the transducer commands consistent across applications.
+
+r58471:
 The timestamp file has been renamed, with corresponding changes in the Makefile.am.
 
 r58456:
