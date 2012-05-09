@@ -45,7 +45,7 @@ AC_SUBST([GTLANG], [tlh])
 # GTLANG2 is the shortest unambiguous language code for this project; it
 # should be the ISO 639-1 two-letter code if possible, otherwise usually same
 # as above
-AC_SUBST([GTLANG2], [No such language code found! tlh])
+AC_SUBST([GTLANG2], [tlh])
 
 # Tests and sets up giellatekno directories and scripts
 gt_PROG_SCRIPTS_PATHS
