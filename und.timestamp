@@ -1,0 +1,12 @@
+$Rev: 58471 $
+
+r:
+The timestamp file has been renamed, with corresponding changes in the Makefile.am.
+
+r58456:
+Making the echo silent for clean output.
+
+r58409:
+Renamed a couple of folders and files, moved hfst & voikko speller metadata files to a more appropriate place.
+
+Updated the top Makefile.am to properly check for changes to this file before building anything else.
