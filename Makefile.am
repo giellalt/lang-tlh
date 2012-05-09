@@ -9,7 +9,7 @@ EXTRA_DIST = und.timestamp
 
 configure: und.timestamp
 
-und.timestamp: ${GTCORE}/templates/und/template.timestamp
+und.timestamp: ${GTCORE}/templates/und/und.timestamp
 	@echo
 	@echo "	The build templates are newer than this language directory"
 	@echo "	To get new build rules and conventions, run: "
