@@ -1,5 +1,8 @@
-$Rev: 58482 $
+$Rev: 58484 $
 
+Corrected path to speller metadata files, corrected commands for them.
+
+r58482:
 Updated zhfst building according to new location of files.
 
 r58478:

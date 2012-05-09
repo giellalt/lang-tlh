@@ -47,11 +47,11 @@ dictionary.default.hfst: temporary.phon.hfst
 		$(HFST_MINIMIZE) $(HFST_FLAGS) |\
 		$(HFST_FST2FST) $(HFST_FLAGS) -f olw -o $@
 
-index.xml: src/spellchecker/index.xml
-	cp -f < $< > $@
+index.xml: spellchecker/index.xml
+	cp -f $< $@
 
-voikko-fi_FI.pro: src/spellchecker/voikko-fi_FI.pro
-	cp -f < $< > $@
+voikko-fi_FI.pro: spellchecker/voikko-fi_FI.pro
+	cp -f $< $@
 
 acceptor.default.hfst: dictionary.default.hfst
 	$(HFST_FST2FST) $(HFST_FLAGS) -f olw $< -o $@
