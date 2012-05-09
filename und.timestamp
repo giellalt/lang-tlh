@@ -1,6 +1,8 @@
-$Rev: 58478 $
+$Rev: 58482 $
 
-r:
+Updated zhfst building according to new location of files.
+
+r58478:
 Replaced direct command calls with variables, completed and corrected a couple of commands, made the transducer commands consistent across applications.
 
 r58471:
