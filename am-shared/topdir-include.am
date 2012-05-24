@@ -76,6 +76,10 @@ dictionary.default.xfst: morphology.gt.xfst
 morphology.%.hfst: morphology.gt.hfst tagsets/%.relabel
 	$(HFST_SUBSTITUTE) $(HFSTFLAGS) -F $(srcdir)/tagsets/$*.relabel -i $< -o $@
 
+# remove sub-standard forms to get a normative transducer
+morphology.norm.hfst: morphology.default.hfst remove-sub-forms.hfst
+    $(HFSTCOMPOSE) $(HFSTFLAGS) -1 remove-sub-forms.hfst -2 morphology.default.hfst
+
 # create tagset variants of generators
 generation.%.hfst: generation.omor.hfst tagsets/%.relabel
 	$(HFST_SUBSTITUTE) $(HFSTFLAGS) -F $(srcdir)/tagsets/$*.relabel -i $< -o $@

@@ -47,6 +47,9 @@ AC_SUBST([GTLANG], [tlh])
 # as above
 AC_SUBST([GTLANG2], [tlh])
 
+# GTCORE env. variable is required by the 
+AC_ARG_VAR([GTCORE], [gtcore path should always be declared by gtsetup.sh])
+
 # Tests and sets up giellatekno directories and scripts
 gt_PROG_SCRIPTS_PATHS
 
