@@ -22,9 +22,9 @@
 # second field is version identifie iso 8901 date is good if you have no other
 #   versioining schemes in mind
 # third is email address for bug reports
-# third is name of packages made by make dist, excluding .tar.gz
+# fourth is name of packages made by make dist, excluding .tar.gz
 # fifth is the project web address
-AC_INIT([gtlangs-und], [20110617], [bugs@divvun.no], [gtlangs-und],
+AC_INIT([gtlangs-tlh], [20110617], [bugs@divvun.no], [gtlangs-tlh],
         [http://divvun.no])
 # AC_REVISION is used to get SVN revision into bug reports
 AC_REVISION([$Revision$])
@@ -125,3 +125,12 @@ AC_OUTPUT
 # Prints the informative blurb at the end of ./configure command
 gt_PRINT_FOOTER
 
+dnl stick important warnings to bottom
+dnl YAML test warning:
+AS_IF([test "x$enable_yamltests" == "xno"],
+      [AC_MSG_WARN([YAML testing could not be automatically enabled. To enable it, on MacOSX please do:
+
+sudo port install python32
+sudo port install py-yaml subport=py32-yaml
+
+On other systems, install python 3.1+ and the corresponding py-yaml using the corresponding tools for that system.])])
