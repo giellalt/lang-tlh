@@ -1,0 +1,45 @@
+
+Morphology
+----------
+This is an example morphology, for the purpose of demonstrating giellatekno
+morphology infrastructure. The example language we use is a popular conlang
+by the name of tlhIngan, popularly known by the English name Klingon.
+
+
+Analysis symbols
+----------------
+The morphological analyses of wordforms of Klingon language are presented
+in this system in terms of following symbols.
+(It is highly suggested to follow existing standards when adding new tags).
+
+The parts-of-speech are:
+The nominals are inflected in following Numbers, cases and
+augmentation
+
+The possession is marked as such:
+
+Verb moods are:
+Verb tenses are:
+Verb personal forms in intransitive are:
+The verb personal forms depending on object are:
+Other verb forms are
+
+Special symbols are classified with:
+The verbs are syntactically split according to transitivity:
+Special multiword units are analysed with:
+Non-dictionary words can be recognised with:
+
+Question and Focus particles:
+
+Semantics are classified with
+
+
+Derivations are classified under the morphophonetic form of the suffix, the
+source and target part-of-speech.
+
+
+The word forms in Klingon language start from the lexeme roots of basic
+word classes.
+The verbs require obligatory prefix that is the personal inflection or
+imperative mood
+
