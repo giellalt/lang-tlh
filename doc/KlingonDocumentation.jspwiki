@@ -1,0 +1,22 @@
+[What is this?|WhatIsThis.html]
+
+
+!!! Dynamic documentation
+
+* [Links to generated source file documentation|Links.html]
+* Source files: [stems|https://victorio.uit.no/langtech/trunk/langs/tlh/src/morphology/stems/]   
+  / [affixes|https://victorio.uit.no/langtech/trunk/langs/tlh/src/morphology/affixes/] 
+  / [twolc|https://victorio.uit.no/langtech/trunk/langs/tlh/src/phonology/tlh-phon.twolc]   
+  / [yaml|https://victorio.uit.no/langtech/trunk/langs/tlh/test/src/morphology/]
+
+!!! Grammatical issues
+
+* [The tags that are in use|https://victorio.uit.no/langtech/trunk/langs/tlh/src/morphology/root.lexc]   
+* [A list of morphological tags|../common/MorphologicalTags.html]
+
+
+
+!!!Using the analysers
+
+* In the terminal: analyse words by writing ''utlh'', generate with ''dtlh''
+* For more info, see [How to use the morphological parsers|../../tools/docu-sme-manual.html]
