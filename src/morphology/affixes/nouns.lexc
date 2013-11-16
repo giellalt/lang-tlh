@@ -1,23 +1,38 @@
-!! Noun inflection
+!! !Noun inflection
 !! ---------------
-!! The UNDEFINED language nouns inflect in cases.
+!! The Klingon nouns have a number of suffixes arranged after each other for
+!! lots of stuff.
 
 LEXICON Augmentation
+!! Augmentation is used for more or less important, bigger, smaller etc.
+!! €gt-norm: Nominal augmentation
+!! Qagh Qagh+N+Sg+Nom error
+!! Qagh’a’ Qagh+N+Aug+Sg+Nom huge mistake
+!! QaghHom Qagh+N+Dim+Sg+Nom small mistake
 +Aug:’a’    Number? ;
 +Dim:Hom    Number? ;
 
 LEXICON Number
+!! Plural is marked by some suffixes
+!! €gt-norm: nominal plurals
+!! € Qaghpu’ Qagh+N+Pl+Nom
 +Pl:pu’ NounQualification?  ;
 +Pl:Du’ NounQualification?  ;
 +Pl:mey NounQualification?  ;
 +Pl:ray NounQualification?  ;
 
 LEXICON NounQualification
+!! Nouns are qualified by some other suffixes too
+!! €gt-norm: nominal qualification
+!! € Qaghqoq Qagh+N+Sg+Foc/qoq+Nom error qoq
 +Foc/qoq:qoq    Possession? ;
 +Foc/Hey:Hey    Possession? ;
 +Foc/na:na      Possession? ;
 
 LEXICON Possession
+!! The possessor is marked in suffix too
+!! €gt-norm: Nominal possession
+!! € QaghwIJ Qagh+N+Sg+PxSg1+Nom my error
 +PxSg1:wIj  Cases?  ;
 +PxSg2:lIj  Cases?  ;
 +PxSg3:Daj  Cases?  ;
@@ -32,6 +47,10 @@ LEXICON Possession
 +Foc/that:vetlh Cases?  ;
 
 LEXICON Cases
+!! cases add some semantic relations as usual
+!! €gt-norm: Nominal cases
+!! € QaghDaq Qagh+N+Sg+Loc in an error
+!! € Qaghvo’ Qagh+N+Sg+Sep from an error
 +Loc:Daq    #   ;
 +Sep:vo’    #   ;
 +Ins:mo’    #   ;
@@ -41,22 +60,27 @@ LEXICON Cases
 ! Shorthands
 
 LEXICON Augmentation?
-+N:0   Augmentation ;
-+N:0   Number?  ;
+!! augmentation is optional
+0   Augmentation ;
+0   Number?  ;
 
 LEXICON Number?
+!! number marker is optional, singular being the unmarked form
 0   Number  ;
 +Sg:0   NounQualification?  ;
 
 LEXICON NounQualification?
+!! qualification is optional
 0   NounQualification   ;
 0   Possession?  ;
 
 LEXICON Possession?
+!! possession is optional
 0   Possession  ;
 0   Cases?  ;
 
 LEXICON Cases?
+!! case marker is optional, nominative being the unmarked form
 0       Cases   ;
 +Nom:0  #   ;
 

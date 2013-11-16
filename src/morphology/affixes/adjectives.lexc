@@ -1,11 +1,8 @@
-!! Adjective inflection
-!! --------------------
-!! The UNDEFINED language adjectives compare.
+!! !!Adjective inflection
+!! No adjectives in Klingon
 
 LEXICON Comparisons
-+A+pos:0        Cases   ;
-+A+cmp:er       Cases   ;
-+A+sup:est      Cases   ;
+0 # ;
 
 ! vim: set ft=xfst-lexc:
 

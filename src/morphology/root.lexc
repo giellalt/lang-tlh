@@ -12,82 +12,93 @@
 ! Other licensing options are available upon request, please contact
 ! giellatekno@hum.uit.no or divvun@samediggi.no
 
-!! Morphology
-!! ----------
+!! !Morphology of tlhIngan HoI (Klingon)
 !! This is an example morphology, for the purpose of demonstrating giellatekno
 !! morphology infrastructure. The example language we use is a popular conlang
-!! by the name of tlhIngan, popularly known by the English name Klingon.
+!! by the name of tlhIngan, popularly known by the English name Klingon. This
+!! description uses latinised form, for yet-to-be encoded Klingon orthography,
+!! a spelling variant rule is provided.
 
 
 Multichar_Symbols
-!! Analysis symbols
-!! ----------------
+!! !!Analysis symbols
 !! The morphological analyses of wordforms of Klingon language are presented
 !! in this system in terms of following symbols.
-!! (It is highly suggested to follow existing standards when adding new tags).
 
 !! The parts-of-speech are:
- +N +V +Pcle
- +Pron +Num +Conj +Adv +Intj
+ +N !! {{@CODE@}} for noun,
+ +V !! {{@CODE@}} for verb (and "adjectives"),
+ +Pron !! {{@CODE@}} for pronouns,
+ +Num  !! {{@CODE@}} for numerals,
+ +Conj !! {{@CODE@}} for conjunctions,
+ +Adv  !! {{@CODE@}} for adverbs,
+ +Intj !! {{@CODE@}} for interjections, and
+ +Pcle !! {{@CODE@}} for other, unclassified particles.
+
 !! The nominals are inflected in following Numbers, cases and
-!! augmentation
- +Sg +Du
- +Loc +Sep +Ins +Bnf
- +Aug +Dim
+!! augmentation:
+ +Sg !! {{@CODE@}} for singular,
+ +Pl !! {{@CODE@}} for plural,
+ +Loc !! {{@CODE@}} for locative,
+ +Sep !! {{@CODE@}} for instructive,
+ +Ins !! {{@CODE@}} for instrumental,
+ +Bnf !! {{@CODE@}} for benefactive,
+ +Aug !! {{@CODE@}} for augmentative, and
+ +Dim !! {{@CODE@}} for diminitive
 
 !! The possession is marked as such:
- +PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3
+ +PxSg1 !! {{@CODE@}} for first singular (mine)
+ +PxSg2 !! {{@CODE@}} for second singular (yours)
+ +PxSg3 !! {{@CODE@}} for third singular (his/hers/its/theirs)
+ +PxPl1 !! {{@CODE@}} for first plural (ours)
+ +PxPl2 !! {{@CODE@}} for second plural (yours)
+ +PxPl3 !! {{@CODE@}} for third plural (theirs)
 
 !! Verb moods are:
- +Ind +Imprt
-!! Verb tenses are:
- +Cont +Perf +Prog
-!! Verb personal forms in intransitive are:
- Sg1+ Sg2+ Sg3+ Pl1+ Pl2+ Pl3+
-!! The verb personal forms depending on object are:
- Sg1/Sg2+ Sg1/Sg3+ Sg1/Pl2+ Sg1/Pl3+
- Sg2/Sg1+ Sg2/Sg3+ Sg2/Pl1+ Sg1/Pl3+
- Sg3/Sg1+ Sg3/Sg2+ Sg3/Pl1+ Sg3/Pl2+ Sg3/Sg3+ Sg3/Pl3+
- Pl1/Sg2+ Pl1/Sg3+ Pl1/Pl2+ Pl1/Pl3+
- Pl2/Sg1+ Pl2/Sg3+ Pl2/Pl1+ Pl2/Pl3+
- Pl3/Sg1+ Pl3/Sg2+ Pl3/Pl1+ Pl3/Pl2+ Pl3/Sg3+ Pl3/Pl3+
+ +Ind !! {{@CODE@}} for indicative
+ +Imprt !! {{@CODE@}} for imperative
+!! Verb tenses or aspects are:
+ +Cont !! {{@CODE@}} for continuative
+ +Perf !! {{@CODE@}} for perfect tense
+ +Prog !! {{@CODE@}} for progressive
+
+!! Verb personal forms in intransitives and unmarked objects are
+ Sg1+ !! {{@CODE@}} for first singular (I do [myself, to someone])
+ Sg2+ !! {{@CODE@}} for second singular (you do [yourself, to someone])
+ Sg3+ !! {{@CODE@}} for third singular (he/she/it/they do [theirself, to someone])
+ Pl1+ !! {{@CODE@}} for first plural (we do [ourself, to someone])
+ Pl2+ !! {{@CODE@}} for first singular (you do [yourselves, to someone])
+ Pl3+ !! {{@CODE@}} for first singular (they do [theirselves, to somone])
+
+!! The verb personal forms objects are tagged separately:
+  Sg1O+ !! {{@CODE@}} for first singular (– – does to me)
+  Sg2O+ !! {{@CODE@}} for second singular (– – does to you])
+  Sg3O+ !! {{@CODE@}} for third singular (– – does to them)
+  Pl1O+ !! {{@CODE@}} for first plural (– – does to us)
+  Pl2O+ !! {{@CODE@}} for first singular (– – does to you)
+  Pl3O+ !! {{@CODE@}} for first singular (– – does to them)
+
 !! Other verb forms are
- +Neg +Refl +Reciproc
+ +Neg !! {{@CODE@}} negated form
+ +Refl !! {{@CODE@}} reflexive form
+ +Reciproc !! {{@CODE@}} reciprocal form
 
 ! Abbreviated words are classified with:
- +ABBR +ACR 
+ +ABBR !! {{@CODE@}}
 !! Special symbols are classified with:
-+CLB +PUNCT +LEFT +RIGHT
+ +CLB !! {{@CODE@}}
+ +PUNCT !! {{@CODE@}}
+ +LEFT !! {{@CODE@}}
+ +RIGHT !! {{@CODE@}} 
 !! The verbs are syntactically split according to transitivity:
- +TV +IV
-!! Special multiword units are analysed with:
- +Multi
-!! Non-dictionary words can be recognised with:
- +Guess
+ +TV !! {{@CODE@}} transitive
+ +IV !! {{@CODE@}} intransitive
 
 !! Question and Focus particles:
- +Qst +Foc
- +Foc/this +Foc/that
-
-!! Semantics are classified with
- +Mal +Fem +Sur 
- +Plc 
- +Org
- +Obj
- +Ani
- +Hum
- +Plant
- +Group
- +Time 
- +Txt
- +Route
- +Measr 
- +Wthr
- +Build 
- +Edu
- +Veh
- +Clth
-
+ +Qst !! {{@CODE@}} for question form
+ +Foc !! {{@CODE@}} other focus
+ +Foc/this !! {{@CODE@}} contrastive this focus
+ +Foc/that !! {{@CODE@}} contrastive that focus
 
 !! Derivations are classified under the morphophonetic form of the suffix, the
 !! source and target part-of-speech.
@@ -98,14 +109,22 @@ Multichar_Symbols
 LEXICON Root
 !! The word forms in Klingon language start from the lexeme roots of basic
 !! word classes.
+!! €gt-norm: Klingon poses
+!! € Sus Sus+N wind
+!! € jIJ jIH+Pron I
+!! € je je+Conj and
+!! € batlh batlh+Adv with honor
+!! € ghobe’ ghobe’+Intj no (as in discourse response)
+0   Nouns   ;
 0   Adverbs ;
 0   Conjunctions    ;
 0   Interjections   ;
-0   Nouns   ;
 0   Pronouns    ;
 0   Numerals    ;
 !! The verbs require obligatory prefix that is the personal inflection or
 !! imperative mood
+!!€gt-norm: Klingon verb example
+!!€ Qong 3Sg+Qong+V sleeps
 0   VerbalPrefixes    ;
 
 ! vim: set ft=xfst-lexc:

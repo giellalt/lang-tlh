@@ -1,59 +1,68 @@
-!! Verb inflection
-!! ---------------
+!! !!Verb inflection
 !! The Klingon language verbs inflect in persons with obligatory prefixes, then
-!! ...
+!! the verb stem and all the optional suffixes..
 
 LEXICON VerbalPrefixes
+!!€gt-norm Verb prefixes
+!!€ jIQong 1Sg+Qong+V I sleep
+!!€ cholegh Sg2+Sg1O+legh+V you see me
 Sg1+:jI     Verbs ;
 Sg2+:bI     Verbs ;
 Sg3+:0     Verbs ;
 Pl1+:ma     Verbs ;
 Pl2+:Su     Verbs ;
 Pl3+:0     Verbs ;
-Sg2/Sg1+:cho     Verbs ;
-Sg3/Sg1+:mu     Verbs ;
-Pl2/Sg1+:tu     Verbs ;
-Pl3/Sg1+:mu     Verbs ;
-Sg1/Sg2+:qa     Verbs ;
-Sg3/Sg2+:Du     Verbs ;
-Pl1/Sg2+:pI     Verbs ;
-Pl3/Sg2+:nI     Verbs ;
-Sg1/Sg3+:vI     Verbs ;
-Sg2/Sg3+:Da     Verbs ;
-Sg3/Sg3+:0     Verbs ;
-Pl1/Sg3+:wI     Verbs ;
-Pl2/Sg3+:bo     Verbs ;
-Pl3/Sg3+:lu     Verbs ;
-Sg2/Pl1+:ju     Verbs ;
-Sg3/Pl1+:nu     Verbs ;
-Pl2/Pl1+:che     Verbs ;
-Pl3/Pl1+:nu     Verbs ;
-Sg1/Pl2+:Sa     Verbs ;
-Sg3/Pl2+:lI     Verbs ;
-Pl1/Pl2+:re     Verbs ;
-Pl1/Pl2+:lI     Verbs ;
-Sg1/Pl3+:vI     Verbs ;
-Sg2/Pl3+:Da     Verbs ;
-Sg3/Pl3+:0     Verbs ;
-Pl1/Pl3+:DI     Verbs ;
-Pl2/Pl3+:bo     Verbs ;
-Pl3/Pl3+:0     Verbs ;
+Sg2+Sg1O+:cho     Verbs ;
+Sg3+Sg1O+:mu     Verbs ;
+Pl2+Sg1O+:tu     Verbs ;
+Pl3+Sg1O+:mu     Verbs ;
+Sg1+Sg2O+:qa     Verbs ;
+Sg3+Sg2O+:Du     Verbs ;
+Pl1+Sg2O+:pI     Verbs ;
+Pl3+Sg2O+:nI     Verbs ;
+Sg1+Sg3O+:vI     Verbs ;
+Sg2+Sg3O+:Da     Verbs ;
+Sg3+Sg3O+:0     Verbs ;
+Pl1+Sg3O+:wI     Verbs ;
+Pl2+Sg3O+:bo     Verbs ;
+Pl3+Sg3O+:lu     Verbs ;
+Sg2+Pl1O+:ju     Verbs ;
+Sg3+Pl1O+:nu     Verbs ;
+Pl2+Pl1O+:che     Verbs ;
+Pl3+Pl1O+:nu     Verbs ;
+Sg1+Pl2O+:Sa     Verbs ;
+Sg3+Pl2O+:lI     Verbs ;
+Pl1+Pl2O+:re     Verbs ;
+Pl1+Pl2O+:lI     Verbs ;
+Sg1+Pl3O+:vI     Verbs ;
+Sg2+Pl3O+:Da     Verbs ;
+Sg3+Pl3O+:0     Verbs ;
+Pl1+Pl3O+:DI     Verbs ;
+Pl2+Pl3O+:bo     Verbs ;
+Pl3+Pl3O+:0     Verbs ;
 Imprt+Sg2+:yI     Verbs ;
 Imprt+Pl2+:pe     Verbs ;
-Imprt+Sg2/Sg1+:HI     Verbs ;
-Imprt+Pl2/Sg1+:HI     Verbs ;
-Imprt+Sg2/Sg3+:yI     Verbs ;
-Imprt+Pl2/Sg3+:yI     Verbs ;
-Imprt+Pl2/Pl1+:gho     Verbs ;
-Imprt+Pl2/Pl1+:gho     Verbs ;
-Imprt+Pl2/Pl3+:tI     Verbs ;
-Imprt+Pl2/Pl3+:tI     Verbs ;
+Imprt+Sg2+Sg1O+:HI     Verbs ;
+Imprt+Pl2+Sg1O+:HI     Verbs ;
+Imprt+Sg2+Sg3O+:yI     Verbs ;
+Imprt+Pl2+Sg3O+:yI     Verbs ;
+Imprt+Pl2+Pl1O+:gho     Verbs ;
+Imprt+Pl2+Pl1O+:gho     Verbs ;
+Imprt+Pl2+Pl3O+:tI     Verbs ;
+Imprt+Pl2+Pl3O+:tI     Verbs ;
 
 LEXICON Reflexive
+!! Reflexive suffixes mark reflexive forms
+!! €gt-norm: Verb reflexives
+!! jIlegh’egh 1Sg+legh+V+Refl I see myself
+!! maleghchuq 1Pl+legh+V+Reciproc we see each other
 +Refl:’egh   Volition?   ;
 +Reciproc:chuq  Volition?   ;
 
 LEXICON Volition
+!! Volition is a marker for volition:
+!! €gt-norm: verb volition
+!! € leghnIS 3Sg+legh+V+Foc/nIs he sees nIS
 +Foc/nIs:nIS    Change? ;
 +Foc/qang:qang  Change? ;
 +Foc/rup:rup    Change? ;
@@ -61,31 +70,52 @@ LEXICON Volition
 +Foc/vIp:vIp    Change? ;
 
 LEXICON Change
+!! Change is marked by suffixes
+!! €gt-norm: Verbal  change
+!! € jIleghchoh 1Sg+legh+V+Foc/choh I see choh
 +Foc/choh:choh  Cause?  ;
 +Foc:qa’    Cause?  ;
 
 LEXICON Cause
+!! Cause is marked
+!! €gt-norm: Verbal cause
+!! € leghmoH 3Sg+legh+V+Caus cause him see
 +Caus:moH   Definite?   ;
 
 LEXICON Definite
+!! definiteness is just a suffix
+!! €gt-norm: verbal definiteness
+!! € leghlu’ 3Sg+legh+V+Foc/lu’ he sees lu’
 +Foc/lu’:lu’    Qualification?  ;
 +Foc/laH:laH    Qualification?  ;
 
 LEXICON Qualification
+!! qualification the suffix
+!!€gt-norm: verbal qualifications
+!!€ leghchu’ 3Sg+legh+V+Foc/chu he sees chu’ 
 +Foc/chu’:chu’  Aspect? ;
 +Foc/bej:bej    Aspect? ;
 +Foc/law’:law’  Aspect? ;
 
 LEXICON Aspect
+!! Aspects are coded in suffixes
+!!€gt-norm: Verbal aspects
+!!€ leghpu’ 3Sg+legh+V+Perf he finished seeing
 +Perf:pu’   Honorific?  ;
 +Perf:ta’   Honorific?  ;
 +Cont:taH   Honorific?  ;
 +Prog:lI’   Honorific?  ;
 
 LEXICON Honorific
+!! Verbs can have honorific markers
+!!€gt-norm: Verbal honorifics
+!!€ leghneS 3Sg+legh+V+Honor he sees honorably
 +Honor:neS  Others? ;
 
 LEXICON Others
+!! And some other markers too
+!!€gt-norm: Verb others
+!!€ leghDI’ 3Sg+legh+V+Foc/DI’ he sees DI’
 +Foc/DI’:DI’    #   ;
 +Foc/chugh:chugh    #   ;
 +Foc/pa’:pa’    #   ;
@@ -93,6 +123,9 @@ LEXICON Others
 +Foc/bogh:bogh  #   ;
 +Foc/meh:meH    #   ;
 +Foc/Qst:’a’    #   ;
+!! Verbs can always be derived into nouns with wI’:
+!!€gt-norm: Deverbal nominals
+!!€ leghwI’ 3Sg+legh+V+V→N+Sg+Nom his seeing
 +V→N+Der/wI’:wI’    Augmentation?   ;
 
 ! Shorthands

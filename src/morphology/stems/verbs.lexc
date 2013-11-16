@@ -4,9 +4,19 @@
 ! editing...
 
 LEXICON Verbs
-Qong    Reflexive?    ;
-Sop     Reflexive?    ;
-legh    Reflexive?    ;
-qIp     Reflexive?    ;
+!!€gt-norm: Basic verbs
+!!€ Qong Qong+V he/she/it/they sleep(s)
+!!€ jIQong Sg1+Qong+V I sleep
+!!€ bIQong Sg2+Qong+V you sleep
+!!€ maQong Pl1+Qong+V we sleep
+!!€ SuQong Pl2+Qong+V you sleep
+!!€ legh Sg3+legh+V he/she/it/they see(s) him/her/it/them
+!!€ qalegh Sg1+SgO2+legh+V I see you
+!!€ vIlegh Sg1+SgO3+legh+V I see him/her/it/them
+!! ...
+Qong+V:Qong    Reflexive?    ;
+Sop+V:Sop     Reflexive?    ;
+legh+V:legh    Reflexive?    ;
+qIp+V:qIp     Reflexive?    ;
 
 ! vim: set ft=xfst-lexc:

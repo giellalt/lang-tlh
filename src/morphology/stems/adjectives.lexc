@@ -1,8 +1,8 @@
 !! Adjectives
 !! ----------
-!! Adjectives in UNDEFINED language describe things.
+!! There are no adjectives in Klingon language, see verbs instead.
 
 LEXICON Adjectives
-adjective    Comparisons   ;
+0 # ;
 
 ! vim: set ft=xfst-lexc:
