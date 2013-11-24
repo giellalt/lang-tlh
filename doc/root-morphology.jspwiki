@@ -1,38 +1,89 @@
 
-Morphology
-----------
+!Morphology of tlhIngan HoI (Klingon)
 This is an example morphology, for the purpose of demonstrating giellatekno
 morphology infrastructure. The example language we use is a popular conlang
-by the name of tlhIngan, popularly known by the English name Klingon.
+by the name of tlhIngan, popularly known by the English name Klingon. This
+description uses latinised form, for yet-to-be encoded Klingon orthography,
+a spelling variant rule is provided.
 
 
-Analysis symbols
-----------------
+!!Analysis symbols
 The morphological analyses of wordforms of Klingon language are presented
 in this system in terms of following symbols.
-(It is highly suggested to follow existing standards when adding new tags).
 
 The parts-of-speech are:
+{{@NO CODE@}} for noun,
+{{@NO CODE@}} for verb (and "adjectives"),
+{{@NO CODE@}} for pronouns,
+{{@NO CODE@}} for numerals,
+{{@NO CODE@}} for conjunctions,
+{{@NO CODE@}} for adverbs,
+{{@NO CODE@}} for interjections, and
+{{@NO CODE@}} for other, unclassified particles.
+
 The nominals are inflected in following Numbers, cases and
-augmentation
+augmentation:
+{{@NO CODE@}} for singular,
+{{@NO CODE@}} for plural,
+{{@NO CODE@}} for locative,
+{{@NO CODE@}} for instructive,
+{{@NO CODE@}} for instrumental,
+{{@NO CODE@}} for benefactive,
+{{@NO CODE@}} for augmentative, and
+{{@NO CODE@}} for diminitive
 
 The possession is marked as such:
+{{@NO CODE@}} for first singular (mine)
+{{@NO CODE@}} for second singular (yours)
+{{@NO CODE@}} for third singular (his/hers/its/theirs)
+{{@NO CODE@}} for first plural (ours)
+{{@NO CODE@}} for second plural (yours)
+{{@NO CODE@}} for third plural (theirs)
 
 Verb moods are:
-Verb tenses are:
-Verb personal forms in intransitive are:
-The verb personal forms depending on object are:
-Other verb forms are
+{{@NO CODE@}} for indicative
+{{@NO CODE@}} for imperative
+Verb tenses or aspects are:
+{{@NO CODE@}} for continuative
+{{@NO CODE@}} for perfect tense
+{{@NO CODE@}} for progressive
 
+Verb personal forms in intransitives and unmarked objects are
+{{@NO CODE@}} for first singular (I do [myself, to someone])
+{{@NO CODE@}} for second singular (you do [yourself, to someone])
+{{@NO CODE@}} for third singular (he/she/it/they do [theirself, to someone])
+{{@NO CODE@}} for first plural (we do [ourself, to someone])
+{{@NO CODE@}} for first singular (you do [yourselves, to someone])
+{{@NO CODE@}} for first singular (they do [theirselves, to somone])
+
+The verb personal forms objects are tagged separately:
+{{@NO CODE@}} for first singular (– – does to me)
+{{@NO CODE@}} for second singular (– – does to you])
+{{@NO CODE@}} for third singular (– – does to them)
+{{@NO CODE@}} for first plural (– – does to us)
+{{@NO CODE@}} for first singular (– – does to you)
+{{@NO CODE@}} for first singular (– – does to them)
+
+Other verb forms are
+{{@NO CODE@}} negated form
+{{@NO CODE@}} reflexive form
+{{@NO CODE@}} reciprocal form
+
+{{@NO CODE@}}
 Special symbols are classified with:
+{{@NO CODE@}}
+{{@NO CODE@}}
+{{@NO CODE@}}
+{{@NO CODE@}} 
 The verbs are syntactically split according to transitivity:
-Special multiword units are analysed with:
-Non-dictionary words can be recognised with:
+{{@NO CODE@}} transitive
+{{@NO CODE@}} intransitive
 
 Question and Focus particles:
-
-Semantics are classified with
-
+{{@NO CODE@}} for question form
+{{@NO CODE@}} other focus
+{{@NO CODE@}} contrastive this focus
+{{@NO CODE@}} contrastive that focus
 
 Derivations are classified under the morphophonetic form of the suffix, the
 source and target part-of-speech.
@@ -40,6 +91,14 @@ source and target part-of-speech.
 
 The word forms in Klingon language start from the lexeme roots of basic
 word classes.
+€gt-norm: Klingon poses
+€ Sus Sus+N wind
+€ jIJ jIH+Pron I
+€ je je+Conj and
+€ batlh batlh+Adv with honor
+€ ghobe’ ghobe’+Intj no (as in discourse response)
 The verbs require obligatory prefix that is the personal inflection or
 imperative mood
+(subsequent examples are *Klingon verb example*)
+* __Qong__: {{3Sg+Qong+V}} (Eng. sleeps)
 
