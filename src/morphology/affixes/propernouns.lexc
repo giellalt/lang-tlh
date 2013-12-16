@@ -1,0 +1,8 @@
+!! !!Proper noun inflection
+!! proper nouns inflect like nominals
+
+LEXICON ProperNounCases
+0 # ;
+
+! vim: set ft=xfst-lexc:
+

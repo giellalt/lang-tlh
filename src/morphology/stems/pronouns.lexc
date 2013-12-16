@@ -1,0 +1,16 @@
+!! Pronouns
+!! --------
+!! Pronouns in Klingon language are references to things.
+
+LEXICON Pronouns
+jIH+Pron:jIH    #   ;
+maH+Pron:maH    #   ;
+soH+Pron:soH    #   ;
+tlhIH+Pron:tlhIH    #   ;
+ghaH+Pron:ghaH    #   ;
+chaH+Pron:chaH    #   ;
+’oH+Pron:’oH    #   ;
+bIH+Pron:bIH    #   ;
+
+
+! vim: set ft=xfst-lexc:

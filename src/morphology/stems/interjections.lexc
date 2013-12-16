@@ -1,0 +1,26 @@
+!! Interjections
+!! -------------
+!! Interjections in Klingon are exclamations.
+
+LEXICON Interjections
+ghobe’+Intj:ghobe’    #  ;
+Ha’+Intj:Ha’    #  ;
+HIja’+Intj:HIja’    #  ;
+HISlaH+Intj:HISlaH    #  ;
+lu’+Intj:lu’    #  ;
+luq+Intj:luq    #  ;
+maj+Intj:maj    #  ;
+majQa’+Intj:majQa’    #  ;
+nuqneH+Intj:nuqneH    #  ;
+pItlh+Intj:pItlh    #  ;
+Qo’+Intj:Qo’    #  ;
+SuH+Intj:SuH    #  ;
+Su’+Intj:Su’    #  ;
+toH+Intj:toH    #  ;
+wejpuH+Intj:wejpuH    #  ;
+’eH+Intj:’eH    #  ;
+Qi’yaH+Intj:Qi’yaH    #  ;
+ghuy’cha’+Intj:ghuy’cha’    #  ;
+Qu’vatlh+Intj:Qu’vatlh    #  ;
+
+! vim: set ft=xfst-lexc:

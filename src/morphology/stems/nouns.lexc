@@ -1,0 +1,11 @@
+!! Nouns
+!! -----
+
+!! Nouns in Klingon language are things. Noo, they __denote__ things.
+
+LEXICON Nouns
+Sus     Augmentation?    ;
+Qagh    Augmentation?    ;
+woQ     Augmentation?    ;
+roj     Augmentation?    ;
+! vim: set ft=xfst-lexc:

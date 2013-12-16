@@ -1,0 +1,8 @@
+!! Adjectives
+!! ----------
+!! There are no adjectives in Klingon language, see verbs instead.
+
+LEXICON Adjectives
+0 # ;
+
+! vim: set ft=xfst-lexc:

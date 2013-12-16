@@ -1,0 +1,15 @@
+!! Conjunctions
+!! ------------
+!! Conjunctions in Klingon join sentences or nouns.
+
+LEXICON Conjunctions
+je+Conj:je      #   ;
+joq+Conj:joq    #   ;
+ghap+Conj:ghap  #   ;
+’ej+Conj:’ej    #   ;
+qoj+Conj:qoj    #   ;
+pagh+Conj:pagh  #   ;
+’ach+Conj:’ach  #   ;
+
+! vim: set ft=xfst-lexc:
+
