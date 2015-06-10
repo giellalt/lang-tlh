@@ -1,5 +1,5 @@
 ! Divvun & Giellatekno - open source grammars for Klingon language
-! Copyright © 2012 The University of Tromsø & the Norwegian Sámi Parliament
+! Copyright © 2015 The University of Tromsø & the Norwegian Sámi Parliament
 ! http://giellatekno.uit.no & http://divvun.no
 !
 ! This program is free software; you can redistribute and/or modify
@@ -10,7 +10,7 @@
 ! also available in the file $GTHOME/LICENSE.txt.
 !
 ! Other licensing options are available upon request, please contact
-! giellatekno@hum.uit.no or feedback@divvun.no
+! giellatekno@uit.no or feedback@divvun.no
 
 !! !Morphology of tlhIngan HoI (Klingon)
 !! This is an example morphology, for the purpose of demonstrating giellatekno
@@ -19,8 +19,8 @@
 !! description uses latinised form, for yet-to-be encoded Klingon orthography,
 !! a spelling variant rule is provided.
 
+Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 
-Multichar_Symbols
 !! !!Analysis symbols
 !! The morphological analyses of wordforms of Klingon language are presented
 !! in this system in terms of following symbols.
