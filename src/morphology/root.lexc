@@ -63,12 +63,12 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
  +Prog !! {{@CODE@}} for progressive
 
 !! Verb personal forms in intransitives and unmarked objects are
- Sg1+ !! {{@CODE@}} for first singular (I do [myself, to someone])
- Sg2+ !! {{@CODE@}} for second singular (you do [yourself, to someone])
- Sg3+ !! {{@CODE@}} for third singular (he/she/it/they do [theirself, to someone])
- Pl1+ !! {{@CODE@}} for first plural (we do [ourself, to someone])
- Pl2+ !! {{@CODE@}} for first singular (you do [yourselves, to someone])
- Pl3+ !! {{@CODE@}} for first singular (they do [theirselves, to somone])
+ Sg1+ !! {{@CODE@}} for first singular (I do [[myself, to someone])
+ Sg2+ !! {{@CODE@}} for second singular (you do [[yourself, to someone])
+ Sg3+ !! {{@CODE@}} for third singular (he/she/it/they do [[theirself, to someone])
+ Pl1+ !! {{@CODE@}} for first plural (we do [[ourself, to someone])
+ Pl2+ !! {{@CODE@}} for first singular (you do [[yourselves, to someone])
+ Pl3+ !! {{@CODE@}} for first singular (they do [[theirselves, to somone])
 
 !! The verb personal forms objects are tagged separately:
   Sg1O+ !! {{@CODE@}} for first singular (– – does to me)
