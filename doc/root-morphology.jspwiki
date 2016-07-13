@@ -50,12 +50,12 @@ Verb tenses or aspects are:
 {{Multichar_Symbols}} for progressive
 
 Verb personal forms in intransitives and unmarked objects are
-{{Multichar_Symbols}} for first singular (I do [myself, to someone])
-{{Multichar_Symbols}} for second singular (you do [yourself, to someone])
-{{Multichar_Symbols}} for third singular (he/she/it/they do [theirself, to someone])
-{{Multichar_Symbols}} for first plural (we do [ourself, to someone])
-{{Multichar_Symbols}} for first singular (you do [yourselves, to someone])
-{{Multichar_Symbols}} for first singular (they do [theirselves, to somone])
+{{Multichar_Symbols}} for first singular (I do [[myself, to someone])
+{{Multichar_Symbols}} for second singular (you do [[yourself, to someone])
+{{Multichar_Symbols}} for third singular (he/she/it/they do [[theirself, to someone])
+{{Multichar_Symbols}} for first plural (we do [[ourself, to someone])
+{{Multichar_Symbols}} for first singular (you do [[yourselves, to someone])
+{{Multichar_Symbols}} for first singular (they do [[theirselves, to somone])
 
 The verb personal forms objects are tagged separately:
 {{Multichar_Symbols}} for first singular (– – does to me)
