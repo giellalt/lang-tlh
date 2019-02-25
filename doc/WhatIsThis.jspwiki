@@ -3,6 +3,8 @@ This is a grammatical analyser for Klingon.
 
 Nothing has been done to it yet, it just contain dummy files.
 
+This analyser was mainly set up as a dummy language for testing the 
+infrastructure.
 ----
 
 The structure of the source file catalogue is the same for all
