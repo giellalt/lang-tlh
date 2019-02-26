@@ -149,6 +149,8 @@ LEXICON Root
 0   Interjections   ;
 0   Pronouns    ;
 0   Numerals    ;
+    Punctuation ;
+    Symbols     ;
 !! The verbs require obligatory prefix that is the personal inflection or
 !! imperative mood
 !!€gt-norm: Klingon verb example
