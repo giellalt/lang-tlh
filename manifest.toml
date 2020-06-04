@@ -1,0 +1,9 @@
+name = "Klingon"
+version = "0.1.0"
+
+[macos]
+system_pkg_id = "no.divvun.MacDivvun.tlh"
+
+[windows]
+system_product_code = "EEB44AE2-9C47-4DF3-AC10-15F7904FD1DC"
+msoffice_product_code = "010A0558-C4B0-47A7-9B5E-2F200876681D"
