@@ -2,7 +2,6 @@
 ========================================
  The Klingon morphology and tools
 ========================================
-hmm
 
 This directory contains source files for the Klingon language morphology and
 dictionary. The data and implementation are licenced under GNU GPLv3 licence
