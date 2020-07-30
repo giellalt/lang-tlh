@@ -15,6 +15,7 @@ GT_ORTHOGRAPHIC_REGEX_SRCS=\
 GT_ORTHOGRAPHIC_XFSCRIPT_SRCS=\
 		allcaps.xfscript      \
 		downcase-derived_proper-strings.xfscript \
+		Latn-to-Piqd.xfscript \
 		spellrelax-with-tags.xfscript
 
 # General build rules included from here:
