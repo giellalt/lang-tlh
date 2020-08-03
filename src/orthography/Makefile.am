@@ -9,6 +9,7 @@
 GT_ORTHOGRAPHIC_REGEX_SRCS=\
 		inituppercase.regex \
 		spellrelax.regex    \
+		spellrelax.Piqd.regex    \
 		spellrelax-mobile-keyboard.regex \
 		spellrelax-tags.regex
 
@@ -16,6 +17,7 @@ GT_ORTHOGRAPHIC_XFSCRIPT_SRCS=\
 		allcaps.xfscript      \
 		downcase-derived_proper-strings.xfscript \
 		Latn-to-Piqd.xfscript \
+		Piqd-to-Latn.xfscript \
 		spellrelax-with-tags.xfscript
 
 # General build rules included from here:
