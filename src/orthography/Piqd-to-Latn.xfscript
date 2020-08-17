@@ -1,5 +1,5 @@
 
-! Script for latin to PiQaD, 
+! Script for PiQaD to latin, 
 !         0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F
 ! U+F8Dx                                
 ! U+F8Ex                    
@@ -10,76 +10,48 @@
 !         0  1  2  3  4  5  6  7  8  9        ,  . MUMMIFICATION 
 ! 
 
-! fix latin a bit
-
-define Decapitation [ A -> a , 
-                          B -> b ,
-                          C -> c ,
-                          E -> e ,
-                          F -> f ,
-                          G -> g ,
-                          J -> j ,
-                          K -> k ,
-                          L -> l ,
-                          M -> m ,
-                          N -> n ,
-                          O -> o ,
-                          P -> p ,
-                          R -> r ,
-                          S -> s ,
-                          T -> t ,
-                          U -> u ,
-                          V -> v ,
-                          W -> w ,
-                          X -> x ,
-                          Y -> y ,
-                          Z -> z ]
-                          ;
-
-define NormaliseGlottals [ %' -> ’ ] ;
-
 ! context-free replacements
 
-define aRule [ a ] ->   ;  
-define bRule [ b ] ->   ;  
-define chRule [ c h ] ->   ;  
-define DRule [ D ] ->   ;  
-define eRule [ e ] ->   ;  
-define ghRule [ g h ] ->   ;  
-define HRule [ H ] ->   ;  
-define IRule [ I ] ->   ;  
-define jRule [ j ] ->   ;    
-define lRule [ l ] ->   ; 
-define mRule [ m ] ->   ; 
-define nRule [ n ] ->   ; 
-define ngRule [ n g ] ->   ;  
-define oRule [ o ] ->  ; 
-define pRule [ p ] ->   ; 
-define qRule [ q ] ->   ; 
-define QRule [ Q ] ->   ; 
-define rRule [ r ] ->   ; 
-define sRule [ s ] ->   ; 
-define tRule [ t ] ->   ; 
-define tlhRule [ t l h ] ->  ;
-define uRule [ u ] ->  ; 
-define vRule [ v ] ->  ;  
-define wRule [ w ] ->  ;  
-define yRule [ y ] ->  ;  
-define glottalsRule [ ’ ] ->  ;  
+define aRule  [   ] ->  a  ;  
+define bRule  [   ] ->  b  ;  
+define chRule  [   ] ->  c h  ;  
+define DRule  [   ] ->  D  ;  
+define eRule  [   ] ->  e  ;  
+define ghRule  [   ] ->  g h  ;  
+define HRule  [   ] ->  H  ;  
+define IRule  [   ] ->  I  ;  
+define jRule  [   ] ->  j  ;    
+define lRule  [   ] ->  l  ; 
+define mRule  [   ] ->  m  ; 
+define nRule  [   ] ->  n  ; 
+define ngRule  [   ] ->  n g  ;  
+define oRule  [  ] ->  o  ; 
+define pRule  [   ] ->  p  ; 
+define qRule  [   ] ->  q  ; 
+define QRule  [   ] ->  Q  ; 
+define rRule  [   ] ->  r  ; 
+define sRule  [   ] ->  s  ; 
+define tRule  [   ] ->  t  ; 
+define tlhRule  [  ] ->  t l h  ;
+define uRule  [  ] ->  u  ; 
+define vRule  [  ] ->  v  ;  
+define wRule  [  ] ->  w  ;  
+define yRule  [  ] ->  y  ;  
+define glottalsRule  [  ] ->  ’  ;  
 
-define 0rule [ %0 ] ->  ;
-define 1rule [ 1 ] ->  ;
-define 2rule [ 2 ] ->  ;
-define 3rule [ 3 ] ->  ;
-define 4rule [ 4 ] ->  ;
-define 5rule [ 5 ] ->  ;
-define 6rule [ 6 ] ->  ;
-define 7rule [ 7 ] ->  ;
-define 8rule [ 8 ] ->  ;
-define 9rule [ 9 ] ->  ;
+define 0rule  [  ] ->  %0  ;
+define 1rule  [  ] ->  1  ;
+define 2rule  [  ] ->  2  ;
+define 3rule  [  ] ->  3  ;
+define 4rule  [  ] ->  4  ;
+define 5rule  [  ] ->  5  ;
+define 6rule  [  ] ->  6  ;
+define 7rule  [  ] ->  7  ;
+define 8rule  [  ] ->  8  ;
+define 9rule  [  ] ->  9  ;
 
-define CommaRule [ %, ] ->  ;
-define FullStopRule [ %. ] ->  ;
+define CommaRule  [  ] ->  %,  ;
+define FullStopRule  [  ] ->  %.  ;
 
 
 
