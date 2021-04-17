@@ -12,94 +12,94 @@
 ! Other licensing options are available upon request, please contact
 ! giellatekno@uit.no or feedback@divvun.no
 
-!! !!!Morphology of tlhIngan HoI (Klingon)
+!! # Morphology of tlhIngan HoI (Klingon)
 !! This is an example morphology, for the purpose of demonstrating giellatekno
 !! morphology infrastructure. The example language we use is a popular conlang
 !! by the name of tlhIngan, popularly known by the English name Klingon. This
 !! description uses latinised form, for yet-to-be encoded Klingon orthography,
 !! a spelling variant rule is provided.
 
-Multichar_Symbols  !!≈ !!!Definitions for @CODE@
+Multichar_Symbols  !!≈ # Definitions for @CODE@
 
-!! !!Analysis symbols
+!! ## Analysis symbols
 !! The morphological analyses of wordforms of Klingon language are presented
 !! in this system in terms of following symbols.
 
 !! The parts-of-speech are:
- +N !! {{@CODE@}} for noun,
- +V !! {{@CODE@}} for verb (and "adjectives"),
- +Pron !! {{@CODE@}} for pronouns,
- +Num  !! {{@CODE@}} for numerals,
- +Conj !! {{@CODE@}} for conjunctions,
- +Adv  !! {{@CODE@}} for adverbs,
- +Intj !! {{@CODE@}} for interjections, and
- +Pcle !! {{@CODE@}} for other, unclassified particles.
+ +N !! `@CODE@` for noun,
+ +V !! `@CODE@` for verb (and "adjectives"),
+ +Pron !! `@CODE@` for pronouns,
+ +Num  !! `@CODE@` for numerals,
+ +Conj !! `@CODE@` for conjunctions,
+ +Adv  !! `@CODE@` for adverbs,
+ +Intj !! `@CODE@` for interjections, and
+ +Pcle !! `@CODE@` for other, unclassified particles.
 
 !! The nominals are inflected in following Numbers, cases and
 !! augmentation:
- +Sg !! {{@CODE@}} for singular,
- +Pl !! {{@CODE@}} for plural,
- +Loc !! {{@CODE@}} for locative,
- +Sep !! {{@CODE@}} for instructive,
- +Ins !! {{@CODE@}} for instrumental,
- +Bnf !! {{@CODE@}} for benefactive,
- +Aug !! {{@CODE@}} for augmentative, and
- +Dim !! {{@CODE@}} for diminitive
+ +Sg !! `@CODE@` for singular,
+ +Pl !! `@CODE@` for plural,
+ +Loc !! `@CODE@` for locative,
+ +Sep !! `@CODE@` for instructive,
+ +Ins !! `@CODE@` for instrumental,
+ +Bnf !! `@CODE@` for benefactive,
+ +Aug !! `@CODE@` for augmentative, and
+ +Dim !! `@CODE@` for diminitive
 
 !! The possession is marked as such:
- +PxSg1 !! {{@CODE@}} for first singular (mine)
- +PxSg2 !! {{@CODE@}} for second singular (yours)
- +PxSg3 !! {{@CODE@}} for third singular (his/hers/its/theirs)
- +PxPl1 !! {{@CODE@}} for first plural (ours)
- +PxPl2 !! {{@CODE@}} for second plural (yours)
- +PxPl3 !! {{@CODE@}} for third plural (theirs)
+ +PxSg1 !! `@CODE@` for first singular (mine)
+ +PxSg2 !! `@CODE@` for second singular (yours)
+ +PxSg3 !! `@CODE@` for third singular (his/hers/its/theirs)
+ +PxPl1 !! `@CODE@` for first plural (ours)
+ +PxPl2 !! `@CODE@` for second plural (yours)
+ +PxPl3 !! `@CODE@` for third plural (theirs)
 
 !! Verb moods are:
- +Ind !! {{@CODE@}} for indicative
- +Imprt !! {{@CODE@}} for imperative
+ +Ind !! `@CODE@` for indicative
+ +Imprt !! `@CODE@` for imperative
 !! Verb tenses or aspects are:
- +Cont !! {{@CODE@}} for continuative
- +Perf !! {{@CODE@}} for perfect tense
- +Prog !! {{@CODE@}} for progressive
+ +Cont !! `@CODE@` for continuative
+ +Perf !! `@CODE@` for perfect tense
+ +Prog !! `@CODE@` for progressive
 
 !! Verb personal forms in intransitives and unmarked objects are
- Sg1+ !! {{@CODE@}} for first singular (I do [[myself, to someone])
- Sg2+ !! {{@CODE@}} for second singular (you do [[yourself, to someone])
- Sg3+ !! {{@CODE@}} for third singular (he/she/it/they do [[theirself, to someone])
- Pl1+ !! {{@CODE@}} for first plural (we do [[ourself, to someone])
- Pl2+ !! {{@CODE@}} for first singular (you do [[yourselves, to someone])
- Pl3+ !! {{@CODE@}} for first singular (they do [[theirselves, to somone])
+ Sg1+ !! `@CODE@` for first singular (I do [[myself, to someone])
+ Sg2+ !! `@CODE@` for second singular (you do [[yourself, to someone])
+ Sg3+ !! `@CODE@` for third singular (he/she/it/they do [[theirself, to someone])
+ Pl1+ !! `@CODE@` for first plural (we do [[ourself, to someone])
+ Pl2+ !! `@CODE@` for first singular (you do [[yourselves, to someone])
+ Pl3+ !! `@CODE@` for first singular (they do [[theirselves, to somone])
 
 !! The verb personal forms objects are tagged separately:
-  Sg1O+ !! {{@CODE@}} for first singular (– – does to me)
-  Sg2O+ !! {{@CODE@}} for second singular (– – does to you])
-  Sg3O+ !! {{@CODE@}} for third singular (– – does to them)
-  Pl1O+ !! {{@CODE@}} for first plural (– – does to us)
-  Pl2O+ !! {{@CODE@}} for first singular (– – does to you)
-  Pl3O+ !! {{@CODE@}} for first singular (– – does to them)
+  Sg1O+ !! `@CODE@` for first singular (– – does to me)
+  Sg2O+ !! `@CODE@` for second singular (– – does to you])
+  Sg3O+ !! `@CODE@` for third singular (– – does to them)
+  Pl1O+ !! `@CODE@` for first plural (– – does to us)
+  Pl2O+ !! `@CODE@` for first singular (– – does to you)
+  Pl3O+ !! `@CODE@` for first singular (– – does to them)
 
 !! Other verb forms are
- +Neg !! {{@CODE@}} negated form
- +Refl !! {{@CODE@}} reflexive form
- +Reciproc !! {{@CODE@}} reciprocal form
+ +Neg !! `@CODE@` negated form
+ +Refl !! `@CODE@` reflexive form
+ +Reciproc !! `@CODE@` reciprocal form
 
 ! Abbreviated words are classified with:
- +ABBR !! {{@CODE@}}
+ +ABBR !! `@CODE@`
 +Symbol !!≈ * @CODE@ = independent symbols in the text stream, like £, €, ©
 !! Special symbols are classified with:
- +CLB !! {{@CODE@}}
- +PUNCT !! {{@CODE@}}
- +LEFT !! {{@CODE@}}
- +RIGHT !! {{@CODE@}} 
+ +CLB !! `@CODE@`
+ +PUNCT !! `@CODE@`
+ +LEFT !! `@CODE@`
+ +RIGHT !! `@CODE@` 
 !! The verbs are syntactically split according to transitivity:
- +TV !! {{@CODE@}} transitive
- +IV !! {{@CODE@}} intransitive
+ +TV !! `@CODE@` transitive
+ +IV !! `@CODE@` intransitive
 
 !! Question and Focus particles:
- +Qst !! {{@CODE@}} for question form
- +Foc !! {{@CODE@}} other focus
- +Foc/this !! {{@CODE@}} contrastive this focus
- +Foc/that !! {{@CODE@}} contrastive that focus
+ +Qst !! `@CODE@` for question form
+ +Foc !! `@CODE@` other focus
+ +Foc/this !! `@CODE@` contrastive this focus
+ +Foc/that !! `@CODE@` contrastive that focus
 
 !! Derivations are classified under the morphophonetic form of the suffix, the
 !! source and target part-of-speech.
@@ -107,33 +107,33 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
  +Der/wi
 
 
-!! !!Flag diacritics
+!! ## Flag diacritics
 !! We have manually optimised the structure of our lexicon using following
 !! flag diacritics to restrict morhpological combinatorics - only allow compounds
 !! with verbs if the verb is further derived into a noun again:
- @P.NeedNoun.ON@    !!≈ | @CODE@ | (Dis)allow compounds with verbs unless nominalised
- @D.NeedNoun.ON@    !!≈ | @CODE@ | (Dis)allow compounds with verbs unless nominalised
- @C.NeedNoun@       !!≈ | @CODE@ | (Dis)allow compounds with verbs unless nominalised
+ @P.NeedNoun.ON@    !!≈ |  @CODE@ | (Dis)allow compounds with verbs unless nominalised
+ @D.NeedNoun.ON@    !!≈ |  @CODE@ | (Dis)allow compounds with verbs unless nominalised
+ @C.NeedNoun@       !!≈ |  @CODE@ | (Dis)allow compounds with verbs unless nominalised
 !! 
 !! For languages that allow compounding, the following flag diacritics are needed
 !! to control position-based compounding restrictions for nominals. Their use is
 !! handled automatically if combined with +CmpN/xxx tags. If not used, they will
 !! do no harm.
- @P.CmpFrst.FALSE@ !!≈ | @CODE@ | Require that words tagged as such only appear first
- @D.CmpPref.TRUE@  !!≈ | @CODE@ | Block such words from entering ENDLEX
- @P.CmpPref.FALSE@ !!≈ | @CODE@ | Block these words from making further compounds
- @D.CmpLast.TRUE@  !!≈ | @CODE@ | Block such words from entering R
- @D.CmpNone.TRUE@  !!≈ | @CODE@ | Combines with the next tag to prohibit compounding
- @U.CmpNone.FALSE@ !!≈ | @CODE@ | Combines with the prev tag to prohibit compounding
- @P.CmpOnly.TRUE@  !!≈ | @CODE@ | Sets a flag to indicate that the word has passed R
- @D.CmpOnly.FALSE@ !!≈ | @CODE@ | Disallow words coming directly from root.
+ @P.CmpFrst.FALSE@ !!≈ |  @CODE@ | Require that words tagged as such only appear first
+ @D.CmpPref.TRUE@  !!≈ |  @CODE@ | Block such words from entering ENDLEX
+ @P.CmpPref.FALSE@ !!≈ |  @CODE@ | Block these words from making further compounds
+ @D.CmpLast.TRUE@  !!≈ |  @CODE@ | Block such words from entering R
+ @D.CmpNone.TRUE@  !!≈ |  @CODE@ | Combines with the next tag to prohibit compounding
+ @U.CmpNone.FALSE@ !!≈ |  @CODE@ | Combines with the prev tag to prohibit compounding
+ @P.CmpOnly.TRUE@  !!≈ |  @CODE@ | Sets a flag to indicate that the word has passed R
+ @D.CmpOnly.FALSE@ !!≈ |  @CODE@ | Disallow words coming directly from root.
 !! 
 !! Use the following flag diacritics to control downcasing of derived proper
 !! nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
 !! these flags. There exists a ready-made regex that will do the actual down-casing
 !! given the proper use of these flags.
- @U.Cap.Obl@        !!≈ | @CODE@ | Allowing downcasing of derived names: deatnulasj.
- @U.Cap.Opt@        !!≈ | @CODE@ | Allowing downcasing of derived names: deatnulasj.
+ @U.Cap.Obl@        !!≈ |  @CODE@ | Allowing downcasing of derived names: deatnulasj.
+ @U.Cap.Opt@        !!≈ |  @CODE@ | Allowing downcasing of derived names: deatnulasj.
 
 LEXICON Root
 !! The word forms in Klingon language start from the lexeme roots of basic
