@@ -1,0 +1,6 @@
+## Prefixes
+Prefixes in Klingon language are bound to beginning of other words. However,
+verbal prefixes which are central to verb inflection are actually situated
+with other verb inflection.
+
+

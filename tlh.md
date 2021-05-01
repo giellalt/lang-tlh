@@ -1,3 +1,147 @@
+### Noun inflection
+The Klingon nouns have a number of suffixes arranged after each other for
+lots of stuff.
+
+Augmentation is used for more or less important, bigger, smaller etc.
+€gt-norm: Nominal augmentation
+Qagh Qagh+N+Sg+Nom error
+Qagh’a’ Qagh+N+Aug+Sg+Nom huge mistake
+QaghHom Qagh+N+Dim+Sg+Nom small mistake
+
+Plural is marked by some suffixes
+€gt-norm: nominal plurals
+€ Qaghpu’ Qagh+N+Pl+Nom
+
+Nouns are qualified by some other suffixes too
+€gt-norm: nominal qualification
+€ Qaghqoq Qagh+N+Sg+Foc/qoq+Nom error qoq
+
+The possessor is marked in suffix too
+€gt-norm: Nominal possession
+€ QaghwIJ Qagh+N+Sg+PxSg1+Nom my error
+
+cases add some semantic relations as usual
+€gt-norm: Nominal cases
+€ QaghDaq Qagh+N+Sg+Loc in an error
+€ Qaghvo’ Qagh+N+Sg+Sep from an error
+
+
+augmentation is optional
+
+number marker is optional, singular being the unmarked form
+
+qualification is optional
+
+possession is optional
+
+case marker is optional, nominative being the unmarked form
+
+
+## Proper noun inflection
+proper nouns inflect like nominals
+
+
+
+
+# Symbol affixes
+
+
+
+
+
+## Adjective inflection
+No adjectives in Klingon
+
+
+
+## Verb inflection
+The Klingon language verbs inflect in persons with obligatory prefixes, then
+the verb stem and all the optional suffixes..
+
+
+*Verb prefixes examples:*
+* *jIQong* `1Sg+Qong+V` (Eng. I sleep)
+* *cholegh* `Sg2+Sg1O+legh+V` (Eng. you see me)
+
+Reflexive suffixes mark reflexive forms
+€gt-norm: Verb reflexives
+jIlegh’egh 1Sg+legh+V+Refl I see myself
+maleghchuq 1Pl+legh+V+Reciproc we see each other
+
+Volition is a marker for volition:
+€gt-norm: verb volition
+€ leghnIS 3Sg+legh+V+Foc/nIs he sees nIS
+
+Change is marked by suffixes
+€gt-norm: Verbal  change
+€ jIleghchoh 1Sg+legh+V+Foc/choh I see choh
+
+Cause is marked
+€gt-norm: Verbal cause
+€ leghmoH 3Sg+legh+V+Caus cause him see
+
+definiteness is just a suffix
+€gt-norm: verbal definiteness
+€ leghlu’ 3Sg+legh+V+Foc/lu’ he sees lu’
+
+qualification the suffix
+
+*verbal qualifications examples:*
+* *leghchu’* `3Sg+legh+V+Foc/chu` (Eng. he sees chu’)
+
+Aspects are coded in suffixes
+
+*Verbal aspects examples:*
+* *leghpu’* `3Sg+legh+V+Perf` (Eng. he finished seeing)
+
+Verbs can have honorific markers
+
+*Verbal honorifics examples:*
+* *leghneS* `3Sg+legh+V+Honor` (Eng. he sees honorably)
+
+And some other markers too
+
+*Verb others examples:*
+* *leghDI’* `3Sg+legh+V+Foc/DI’` (Eng. he sees DI’)
+Verbs can always be derived into nouns with wI’:
+
+*Deverbal nominals examples:*
+* *leghwI’* `3Sg+legh+V+V→N+Sg+Nom` (Eng. his seeing)
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Klingon morphophonological/twolc rules file 
+
+
+
+
+
+
+
+
+
+* *primus%>s*
+* *primus00*
+
+
+* examples:*
+
+* examples:*
+
+
+* examples:*
+
+* examples:*
 
 # Morphology of tlhIngan HoI (Klingon)
 This is an example morphology, for the purpose of demonstrating giellatekno
@@ -133,26 +277,129 @@ imperative mood
 *Klingon verb example examples:*
 * *Qong* `3Sg+Qong+V` (Eng. sleeps)
 
+Nouns
 
-The Klingon morphophonological/twolc rules file 
+Nouns in Klingon language are things. Noo, they **denote** things.
 
-
-
-
-
-
-
-
-
-* *primus%>s*
-* *primus00*
+## Prefixes
+Prefixes in Klingon language are bound to beginning of other words. However,
+verbal prefixes which are central to verb inflection are actually situated
+with other verb inflection.
 
 
-* examples:*
+Pronouns
+Pronouns in Klingon language are references to things.
 
-* examples:*
 
 
-* examples:*
+Interjections
+Interjections in Klingon are exclamations.
 
-* examples:*
+
+Adverbs
+Adverbs in Klingon 
+
+
+
+
+Adjectives
+There are no adjectives in Klingon language, see verbs instead.
+
+
+Verbs
+Verbs in Klingon language are used for both actions and adjectival properties
+
+
+*Basic verbs examples:*
+* *Qong* `Qong+V` (Eng. he/she/it/they sleep(s))
+* *jIQong* `Sg1+Qong+V` (Eng. I sleep)
+* *bIQong* `Sg2+Qong+V` (Eng. you sleep)
+* *maQong* `Pl1+Qong+V` (Eng. we sleep)
+* *SuQong* `Pl2+Qong+V` (Eng. you sleep)
+* *legh* `Sg3+legh+V` (Eng. he/she/it/they see(s) him/her/it/them)
+* *qalegh* `Sg1+SgO2+legh+V` (Eng. I see you)
+* *vIlegh* `Sg1+SgO3+legh+V` (Eng. I see him/her/it/them)
+...
+
+Conjunctions
+Conjunctions in Klingon join sentences or nouns.
+
+
+
+Numerals
+Numerals in Klingon language are numbers.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+% komma% :,      Root ;
+% tjuohkkis% :%. Root ;
+% kolon% :%:     Root ;
+% sárggis% :%-   Root ; 
+% násti% :%*     Root ; 
+
+
+
+
+We describe here how abbreviations are in Klingon are read out, e.g.
+for text-to-speech systems.
+
+For example:
+
+ * s.:syntynyt # ;  
+ * os.:omaa% sukua # ;  
+ * v.:vuosi # ;  
+ * v.:vuonna # ;  
+ * esim.:esimerkki # ; 
+ * esim.:esimerkiksi # ; 
+
+
