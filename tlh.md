@@ -1,3 +1,89 @@
+Conjunctions
+Conjunctions in Klingon join sentences or nouns.
+
+
+
+Nouns
+
+Nouns in Klingon language are things. Noo, they **denote** things.
+
+Numerals
+Numerals in Klingon language are numbers.
+
+
+
+
+
+Adverbs
+Adverbs in Klingon 
+
+
+
+
+Interjections
+Interjections in Klingon are exclamations.
+
+
+Verbs
+Verbs in Klingon language are used for both actions and adjectival properties
+
+
+*Basic verbs examples:*
+* *Qong* `Qong+V` (Eng. he/she/it/they sleep(s))
+* *jIQong* `Sg1+Qong+V` (Eng. I sleep)
+* *bIQong* `Sg2+Qong+V` (Eng. you sleep)
+* *maQong* `Pl1+Qong+V` (Eng. we sleep)
+* *SuQong* `Pl2+Qong+V` (Eng. you sleep)
+* *legh* `Sg3+legh+V` (Eng. he/she/it/they see(s) him/her/it/them)
+* *qalegh* `Sg1+SgO2+legh+V` (Eng. I see you)
+* *vIlegh* `Sg1+SgO3+legh+V` (Eng. I see him/her/it/them)
+...
+
+## Prefixes
+Prefixes in Klingon language are bound to beginning of other words. However,
+verbal prefixes which are central to verb inflection are actually situated
+with other verb inflection.
+
+
+Adjectives
+There are no adjectives in Klingon language, see verbs instead.
+
+
+Pronouns
+Pronouns in Klingon language are references to things.
+
+
+
+
+The Klingon morphophonological/twolc rules file 
+
+
+
+
+
+
+
+
+
+* *primus%>s*
+* *primus00*
+
+
+* examples:*
+
+* examples:*
+
+
+* examples:*
+
+* examples:*
+
+# Symbol affixes
+
+
+
+
+
 ### Noun inflection
 The Klingon nouns have a number of suffixes arranged after each other for
 lots of stuff.
@@ -39,18 +125,6 @@ case marker is optional, nominative being the unmarked form
 
 ## Proper noun inflection
 proper nouns inflect like nominals
-
-
-
-
-# Symbol affixes
-
-
-
-
-
-## Adjective inflection
-No adjectives in Klingon
 
 
 
@@ -119,29 +193,11 @@ Verbs can always be derived into nouns with wI’:
 
 
 
-
-The Klingon morphophonological/twolc rules file 
-
-
+## Adjective inflection
+No adjectives in Klingon
 
 
 
-
-
-
-
-* *primus%>s*
-* *primus00*
-
-
-* examples:*
-
-* examples:*
-
-
-* examples:*
-
-* examples:*
 
 # Morphology of tlhIngan HoI (Klingon)
 This is an example morphology, for the purpose of demonstrating giellatekno
@@ -277,60 +333,20 @@ imperative mood
 *Klingon verb example examples:*
 * *Qong* `3Sg+Qong+V` (Eng. sleeps)
 
-Nouns
-
-Nouns in Klingon language are things. Noo, they **denote** things.
-
-## Prefixes
-Prefixes in Klingon language are bound to beginning of other words. However,
-verbal prefixes which are central to verb inflection are actually situated
-with other verb inflection.
-
-
-Pronouns
-Pronouns in Klingon language are references to things.
 
 
 
-Interjections
-Interjections in Klingon are exclamations.
+We describe here how abbreviations are in Klingon are read out, e.g.
+for text-to-speech systems.
 
+For example:
 
-Adverbs
-Adverbs in Klingon 
-
-
-
-
-Adjectives
-There are no adjectives in Klingon language, see verbs instead.
-
-
-Verbs
-Verbs in Klingon language are used for both actions and adjectival properties
-
-
-*Basic verbs examples:*
-* *Qong* `Qong+V` (Eng. he/she/it/they sleep(s))
-* *jIQong* `Sg1+Qong+V` (Eng. I sleep)
-* *bIQong* `Sg2+Qong+V` (Eng. you sleep)
-* *maQong* `Pl1+Qong+V` (Eng. we sleep)
-* *SuQong* `Pl2+Qong+V` (Eng. you sleep)
-* *legh* `Sg3+legh+V` (Eng. he/she/it/they see(s) him/her/it/them)
-* *qalegh* `Sg1+SgO2+legh+V` (Eng. I see you)
-* *vIlegh* `Sg1+SgO3+legh+V` (Eng. I see him/her/it/them)
-...
-
-Conjunctions
-Conjunctions in Klingon join sentences or nouns.
-
-
-
-Numerals
-Numerals in Klingon language are numbers.
-
-
-
+ * s.:syntynyt # ;  
+ * os.:omaa% sukua # ;  
+ * v.:vuosi # ;  
+ * v.:vuonna # ;  
+ * esim.:esimerkki # ; 
+ * esim.:esimerkiksi # ; 
 
 
 
@@ -386,20 +402,4 @@ Numerals in Klingon language are numbers.
 % kolon% :%:     Root ;
 % sárggis% :%-   Root ; 
 % násti% :%*     Root ; 
-
-
-
-
-We describe here how abbreviations are in Klingon are read out, e.g.
-for text-to-speech systems.
-
-For example:
-
- * s.:syntynyt # ;  
- * os.:omaa% sukua # ;  
- * v.:vuosi # ;  
- * v.:vuonna # ;  
- * esim.:esimerkki # ; 
- * esim.:esimerkiksi # ; 
-
 
