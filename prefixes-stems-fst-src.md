@@ -4,3 +4,5 @@ verbal prefixes which are central to verb inflection are actually situated
 with other verb inflection.
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/prefixes.lexc](http://github.com/giellalt/lang-tlh/blob/main/../src/fst/stems/prefixes.lexc)</small>

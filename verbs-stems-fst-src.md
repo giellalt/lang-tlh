@@ -13,3 +13,5 @@ Verbs in Klingon language are used for both actions and adjectival properties
 * *vIlegh* `Sg1+SgO3+legh+V` (Eng. I see him/her/it/them)
 ...
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-tlh/blob/main/../src/fst/stems/verbs.lexc)</small>

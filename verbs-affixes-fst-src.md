@@ -63,3 +63,5 @@ Verbs can always be derived into nouns with wI’:
 
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-tlh/blob/main/../src/fst/affixes/verbs.lexc)</small>

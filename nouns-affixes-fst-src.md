@@ -37,3 +37,5 @@ possession is optional
 case marker is optional, nominative being the unmarked form
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-tlh/blob/main/../src/fst/affixes/nouns.lexc)</small>

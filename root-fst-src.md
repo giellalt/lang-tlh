@@ -133,3 +133,5 @@ imperative mood
 *Klingon verb example examples:*
 * *Qong* `3Sg+Qong+V` (Eng. sleeps)
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-tlh/blob/main/../src/fst/root.lexc)</small>
