@@ -5,7 +5,8 @@
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-tlh)](https://github.com/giellalt/lang-tlh/issues)
 [![Build status](https://github.com/giellalt/lang-tlh/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-tlh/actions)
 
-This page documents the work on the **Klingon language model**. 
+This page documents the work on the **Klingon language model**. This analyser was mainly set up as a dummy language for testing the 
+infrastructure.
 
 # Project documentation
 
