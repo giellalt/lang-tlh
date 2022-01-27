@@ -607,6 +607,30 @@ These were the set types.
 
 * * *
 <small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-tlh/blob/main/../src/cg3/functions.cg3)</small>
+The Klingon morphophonological/twolc rules file 
+
+
+
+
+
+
+
+
+
+* *primus%>s*
+* *primus00*
+
+
+* examples:*
+
+* examples:*
+
+
+* examples:*
+
+* examples:*
+* * *
+<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-tlh/blob/main/../src/fst/phonology.twolc)</small>
 # Morphology of tlhIngan HoI (Klingon)
 This is an example morphology, for the purpose of demonstrating giellatekno
 morphology infrastructure. The example language we use is a popular conlang
@@ -750,53 +774,13 @@ imperative mood
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-tlh/blob/main/../src/fst/affixes/symbols.lexc)</small>### Noun inflection
-The Klingon nouns have a number of suffixes arranged after each other for
-lots of stuff.
-
-Augmentation is used for more or less important, bigger, smaller etc.
-€gt-norm: Nominal augmentation
-Qagh Qagh+N+Sg+Nom error
-Qagh’a’ Qagh+N+Aug+Sg+Nom huge mistake
-QaghHom Qagh+N+Dim+Sg+Nom small mistake
-
-Plural is marked by some suffixes
-€gt-norm: nominal plurals
-€ Qaghpu’ Qagh+N+Pl+Nom
-
-Nouns are qualified by some other suffixes too
-€gt-norm: nominal qualification
-€ Qaghqoq Qagh+N+Sg+Foc/qoq+Nom error qoq
-
-The possessor is marked in suffix too
-€gt-norm: Nominal possession
-€ QaghwIJ Qagh+N+Sg+PxSg1+Nom my error
-
-cases add some semantic relations as usual
-€gt-norm: Nominal cases
-€ QaghDaq Qagh+N+Sg+Loc in an error
-€ Qaghvo’ Qagh+N+Sg+Sep from an error
-
-
-augmentation is optional
-
-number marker is optional, singular being the unmarked form
-
-qualification is optional
-
-possession is optional
-
-case marker is optional, nominative being the unmarked form
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-tlh/blob/main/../src/fst/affixes/nouns.lexc)</small>## Adjective inflection
-No adjectives in Klingon
+<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-tlh/blob/main/../src/fst/affixes/symbols.lexc)</small>## Proper noun inflection
+proper nouns inflect like nominals
 
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-tlh/blob/main/../src/fst/affixes/adjectives.lexc)</small>## Verb inflection
+<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-tlh/blob/main/../src/fst/affixes/propernouns.lexc)</small>## Verb inflection
 The Klingon language verbs inflect in persons with obligatory prefixes, then
 the verb stem and all the optional suffixes..
 
@@ -862,71 +846,64 @@ Verbs can always be derived into nouns with wI’:
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-tlh/blob/main/../src/fst/affixes/verbs.lexc)</small>## Proper noun inflection
-proper nouns inflect like nominals
+<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-tlh/blob/main/../src/fst/affixes/verbs.lexc)</small>## Adjective inflection
+No adjectives in Klingon
 
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-tlh/blob/main/../src/fst/affixes/propernouns.lexc)</small>
-The Klingon morphophonological/twolc rules file 
+<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-tlh/blob/main/../src/fst/affixes/adjectives.lexc)</small>### Noun inflection
+The Klingon nouns have a number of suffixes arranged after each other for
+lots of stuff.
+
+Augmentation is used for more or less important, bigger, smaller etc.
+€gt-norm: Nominal augmentation
+Qagh Qagh+N+Sg+Nom error
+Qagh’a’ Qagh+N+Aug+Sg+Nom huge mistake
+QaghHom Qagh+N+Dim+Sg+Nom small mistake
+
+Plural is marked by some suffixes
+€gt-norm: nominal plurals
+€ Qaghpu’ Qagh+N+Pl+Nom
+
+Nouns are qualified by some other suffixes too
+€gt-norm: nominal qualification
+€ Qaghqoq Qagh+N+Sg+Foc/qoq+Nom error qoq
+
+The possessor is marked in suffix too
+€gt-norm: Nominal possession
+€ QaghwIJ Qagh+N+Sg+PxSg1+Nom my error
+
+cases add some semantic relations as usual
+€gt-norm: Nominal cases
+€ QaghDaq Qagh+N+Sg+Loc in an error
+€ Qaghvo’ Qagh+N+Sg+Sep from an error
 
 
+augmentation is optional
+
+number marker is optional, singular being the unmarked form
+
+qualification is optional
+
+possession is optional
+
+case marker is optional, nominative being the unmarked form
 
 
-
-
-
-
-
-* *primus%>s*
-* *primus00*
-
-
-* examples:*
-
-* examples:*
-
-
-* examples:*
-
-* examples:*
 * * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-tlh/blob/main/../src/fst/phonology.twolc)</small>Interjections
+<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-tlh/blob/main/../src/fst/affixes/nouns.lexc)</small>Interjections
 Interjections in Klingon are exclamations.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/interjections.lexc](http://github.com/giellalt/lang-tlh/blob/main/../src/fst/stems/interjections.lexc)</small>## Prefixes
-Prefixes in Klingon language are bound to beginning of other words. However,
-verbal prefixes which are central to verb inflection are actually situated
-with other verb inflection.
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/prefixes.lexc](http://github.com/giellalt/lang-tlh/blob/main/../src/fst/stems/prefixes.lexc)</small>Conjunctions
+<small>This (part of) documentation was generated from [../src/fst/stems/interjections.lexc](http://github.com/giellalt/lang-tlh/blob/main/../src/fst/stems/interjections.lexc)</small>Conjunctions
 Conjunctions in Klingon join sentences or nouns.
 
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/conjunctions.lexc](http://github.com/giellalt/lang-tlh/blob/main/../src/fst/stems/conjunctions.lexc)</small>Nouns
-
-Nouns in Klingon language are things. Noo, they **denote** things.
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-tlh/blob/main/../src/fst/stems/nouns.lexc)</small>Adjectives
-There are no adjectives in Klingon language, see verbs instead.
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-tlh/blob/main/../src/fst/stems/adjectives.lexc)</small>Pronouns
-Pronouns in Klingon language are references to things.
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-tlh/blob/main/../src/fst/stems/pronouns.lexc)</small>Verbs
+<small>This (part of) documentation was generated from [../src/fst/stems/conjunctions.lexc](http://github.com/giellalt/lang-tlh/blob/main/../src/fst/stems/conjunctions.lexc)</small>Verbs
 Verbs in Klingon language are used for both actions and adjectival properties
 
 
@@ -942,7 +919,12 @@ Verbs in Klingon language are used for both actions and adjectival properties
 ...
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-tlh/blob/main/../src/fst/stems/verbs.lexc)</small>Numerals
+<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-tlh/blob/main/../src/fst/stems/verbs.lexc)</small>Adjectives
+There are no adjectives in Klingon language, see verbs instead.
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-tlh/blob/main/../src/fst/stems/adjectives.lexc)</small>Numerals
 Numerals in Klingon language are numbers.
 
 
@@ -950,14 +932,32 @@ Numerals in Klingon language are numbers.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-tlh/blob/main/../src/fst/stems/numerals.lexc)</small>Adverbs
+<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-tlh/blob/main/../src/fst/stems/numerals.lexc)</small>Nouns
+
+Nouns in Klingon language are things. Noo, they **denote** things.
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-tlh/blob/main/../src/fst/stems/nouns.lexc)</small>Pronouns
+Pronouns in Klingon language are references to things.
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-tlh/blob/main/../src/fst/stems/pronouns.lexc)</small>Adverbs
 Adverbs in Klingon 
 
 
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adverbs.lexc](http://github.com/giellalt/lang-tlh/blob/main/../src/fst/stems/adverbs.lexc)</small>
+<small>This (part of) documentation was generated from [../src/fst/stems/adverbs.lexc](http://github.com/giellalt/lang-tlh/blob/main/../src/fst/stems/adverbs.lexc)</small>## Prefixes
+Prefixes in Klingon language are bound to beginning of other words. However,
+verbal prefixes which are central to verb inflection are actually situated
+with other verb inflection.
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/prefixes.lexc](http://github.com/giellalt/lang-tlh/blob/main/../src/fst/stems/prefixes.lexc)</small>
 
 
 We describe here how abbreviations are in Klingon are read out, e.g.
