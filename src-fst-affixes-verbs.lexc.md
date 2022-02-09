@@ -2,7 +2,6 @@
 The Klingon language verbs inflect in persons with obligatory prefixes, then
 the verb stem and all the optional suffixes..
 
-
 *Verb prefixes examples:*
 * *jIQong* `1Sg+Qong+V` (Eng. I sleep)
 * *cholegh* `Sg2+Sg1O+legh+V` (Eng. you see me)
@@ -52,16 +51,9 @@ Verbs can always be derived into nouns with wI’:
 *Deverbal nominals examples:*
 * *leghwI’* `3Sg+legh+V+V→N+Sg+Nom` (Eng. his seeing)
 
-
-
-
-
-
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-tlh/blob/main/../src/fst/affixes/verbs.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/affixes/verbs.lexc](https://github.com/giellalt/lang-tlh/blob/main/src/fst/affixes/verbs.lexc)</small>
+
+---
+

@@ -25,7 +25,6 @@ cases add some semantic relations as usual
 € QaghDaq Qagh+N+Sg+Loc in an error
 € Qaghvo’ Qagh+N+Sg+Sep from an error
 
-
 augmentation is optional
 
 number marker is optional, singular being the unmarked form
@@ -36,6 +35,9 @@ possession is optional
 
 case marker is optional, nominative being the unmarked form
 
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-tlh/blob/main/../src/fst/affixes/nouns.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/affixes/nouns.lexc](https://github.com/giellalt/lang-tlh/blob/main/src/fst/affixes/nouns.lexc)</small>
+
+---
+

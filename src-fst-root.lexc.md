@@ -90,7 +90,6 @@ Question and Focus particles:
 Derivations are classified under the morphophonetic form of the suffix, the
 source and target part-of-speech.
 
-
 ## Flag diacritics
 We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morhpological combinatorics - only allow compounds
@@ -134,4 +133,8 @@ imperative mood
 * *Qong* `3Sg+Qong+V` (Eng. sleeps)
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-tlh/blob/main/../src/fst/root.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/root.lexc](https://github.com/giellalt/lang-tlh/blob/main/src/fst/root.lexc)</small>
+
+---
+
