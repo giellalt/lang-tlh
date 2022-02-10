@@ -1,7 +1,7 @@
 # Klingon documentation
 
 [![Maturity: Experiment](https://img.shields.io/badge/Maturity-Experiment-black.svg)](https://giellalt.github.io/MaturityClassification.html)
-[![License](https://img.shields.io/github/license/giellalt/lang-tlh)](https://raw.githubusercontent.com/giellalt/lang-tlh/main/LICENSE)
+[![License](https://img.shields.io/github/license/giellalt/lang-tlh)](https://github.com/giellalt/lang-tlh/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-tlh)](https://github.com/giellalt/lang-tlh/issues)
 [![Build status](https://github.com/giellalt/lang-tlh/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-tlh/actions)
 
