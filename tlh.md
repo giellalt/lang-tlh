@@ -170,123 +170,12 @@ These were the set types.
 ## HNOUN MAPPING
 
 * * *
-
-<small>This (part of) documentation was generated from [src/cg3/functions.cg3](https://github.com/giellalt/lang-tlh/blob/main/src/cg3/functions.cg3)</small>
-
----
-
-
-The Klingon morphophonological/twolc rules file 
-
-* *primus%>s*
-* *primus00*
-
-* examples:*
-
-* examples:*
-
-* examples:*
-
-* examples:*
+<small>This (part of) documentation was generated from [src/cg3/functions.cg3](https://github.com/giellalt/lang-tlh/blob/main/src/cg3/functions.cg3)</small>## Adjective inflection
+No adjectives in Klingon
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/phonology.twolc](https://github.com/giellalt/lang-tlh/blob/main/src/fst/phonology.twolc)</small>
-
----
-
-Nouns
-
-Nouns in Klingon language are things. Noo, they **denote** things.
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/stems/nouns.lexc](https://github.com/giellalt/lang-tlh/blob/main/src/fst/stems/nouns.lexc)</small>
-
----
-
-Adverbs
-Adverbs in Klingon 
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/stems/adverbs.lexc](https://github.com/giellalt/lang-tlh/blob/main/src/fst/stems/adverbs.lexc)</small>
-
----
-
-Interjections
-Interjections in Klingon are exclamations.
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/stems/interjections.lexc](https://github.com/giellalt/lang-tlh/blob/main/src/fst/stems/interjections.lexc)</small>
-
----
-
-Pronouns
-Pronouns in Klingon language are references to things.
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/stems/pronouns.lexc](https://github.com/giellalt/lang-tlh/blob/main/src/fst/stems/pronouns.lexc)</small>
-
----
-
-Numerals
-Numerals in Klingon language are numbers.
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/stems/numerals.lexc](https://github.com/giellalt/lang-tlh/blob/main/src/fst/stems/numerals.lexc)</small>
-
----
-
-Adjectives
-There are no adjectives in Klingon language, see verbs instead.
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/stems/adjectives.lexc](https://github.com/giellalt/lang-tlh/blob/main/src/fst/stems/adjectives.lexc)</small>
-
----
-
-## Prefixes
-Prefixes in Klingon language are bound to beginning of other words. However,
-verbal prefixes which are central to verb inflection are actually situated
-with other verb inflection.
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/stems/prefixes.lexc](https://github.com/giellalt/lang-tlh/blob/main/src/fst/stems/prefixes.lexc)</small>
-
----
-
-Verbs
-Verbs in Klingon language are used for both actions and adjectival properties
-
-*Basic verbs examples:*
-* *Qong* `Qong+V` (Eng. he/she/it/they sleep(s))
-* *jIQong* `Sg1+Qong+V` (Eng. I sleep)
-* *bIQong* `Sg2+Qong+V` (Eng. you sleep)
-* *maQong* `Pl1+Qong+V` (Eng. we sleep)
-* *SuQong* `Pl2+Qong+V` (Eng. you sleep)
-* *legh* `Sg3+legh+V` (Eng. he/she/it/they see(s) him/her/it/them)
-* *qalegh* `Sg1+SgO2+legh+V` (Eng. I see you)
-* *vIlegh* `Sg1+SgO3+legh+V` (Eng. I see him/her/it/them)
-...
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/stems/verbs.lexc](https://github.com/giellalt/lang-tlh/blob/main/src/fst/stems/verbs.lexc)</small>
-
----
-
-Conjunctions
-Conjunctions in Klingon join sentences or nouns.
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/stems/conjunctions.lexc](https://github.com/giellalt/lang-tlh/blob/main/src/fst/stems/conjunctions.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/affixes/adjectives.lexc](https://github.com/giellalt/lang-tlh/blob/main/src/fst/affixes/adjectives.lexc)</small>
 
 ---
 
@@ -342,12 +231,12 @@ proper nouns inflect like nominals
 
 ---
 
-## Adjective inflection
-No adjectives in Klingon
+
+# Symbol affixes
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/adjectives.lexc](https://github.com/giellalt/lang-tlh/blob/main/src/fst/affixes/adjectives.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/affixes/symbols.lexc](https://github.com/giellalt/lang-tlh/blob/main/src/fst/affixes/symbols.lexc)</small>
 
 ---
 
@@ -411,11 +300,22 @@ Verbs can always be derived into nouns with wI’:
 ---
 
 
-# Symbol affixes
+The Klingon morphophonological/twolc rules file 
+
+* *primus%>s*
+* *primus00*
+
+* examples:*
+
+* examples:*
+
+* examples:*
+
+* examples:*
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/symbols.lexc](https://github.com/giellalt/lang-tlh/blob/main/src/fst/affixes/symbols.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/phonology.twolc](https://github.com/giellalt/lang-tlh/blob/main/src/fst/phonology.twolc)</small>
 
 ---
 
@@ -556,6 +456,101 @@ imperative mood
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/root.lexc](https://github.com/giellalt/lang-tlh/blob/main/src/fst/root.lexc)</small>
+
+---
+
+Adjectives
+There are no adjectives in Klingon language, see verbs instead.
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/stems/adjectives.lexc](https://github.com/giellalt/lang-tlh/blob/main/src/fst/stems/adjectives.lexc)</small>
+
+---
+
+Adverbs
+Adverbs in Klingon 
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/stems/adverbs.lexc](https://github.com/giellalt/lang-tlh/blob/main/src/fst/stems/adverbs.lexc)</small>
+
+---
+
+Conjunctions
+Conjunctions in Klingon join sentences or nouns.
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/stems/conjunctions.lexc](https://github.com/giellalt/lang-tlh/blob/main/src/fst/stems/conjunctions.lexc)</small>
+
+---
+
+Interjections
+Interjections in Klingon are exclamations.
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/stems/interjections.lexc](https://github.com/giellalt/lang-tlh/blob/main/src/fst/stems/interjections.lexc)</small>
+
+---
+
+Nouns
+
+Nouns in Klingon language are things. Noo, they **denote** things.
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/stems/nouns.lexc](https://github.com/giellalt/lang-tlh/blob/main/src/fst/stems/nouns.lexc)</small>
+
+---
+
+Numerals
+Numerals in Klingon language are numbers.
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/stems/numerals.lexc](https://github.com/giellalt/lang-tlh/blob/main/src/fst/stems/numerals.lexc)</small>
+
+---
+
+## Prefixes
+Prefixes in Klingon language are bound to beginning of other words. However,
+verbal prefixes which are central to verb inflection are actually situated
+with other verb inflection.
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/stems/prefixes.lexc](https://github.com/giellalt/lang-tlh/blob/main/src/fst/stems/prefixes.lexc)</small>
+
+---
+
+Pronouns
+Pronouns in Klingon language are references to things.
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/stems/pronouns.lexc](https://github.com/giellalt/lang-tlh/blob/main/src/fst/stems/pronouns.lexc)</small>
+
+---
+
+Verbs
+Verbs in Klingon language are used for both actions and adjectival properties
+
+*Basic verbs examples:*
+* *Qong* `Qong+V` (Eng. he/she/it/they sleep(s))
+* *jIQong* `Sg1+Qong+V` (Eng. I sleep)
+* *bIQong* `Sg2+Qong+V` (Eng. you sleep)
+* *maQong* `Pl1+Qong+V` (Eng. we sleep)
+* *SuQong* `Pl2+Qong+V` (Eng. you sleep)
+* *legh* `Sg3+legh+V` (Eng. he/she/it/they see(s) him/her/it/them)
+* *qalegh* `Sg1+SgO2+legh+V` (Eng. I see you)
+* *vIlegh* `Sg1+SgO3+legh+V` (Eng. I see him/her/it/them)
+...
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/stems/verbs.lexc](https://github.com/giellalt/lang-tlh/blob/main/src/fst/stems/verbs.lexc)</small>
 
 ---
 
@@ -728,20 +723,6 @@ retracted tongue root			_q
 
 
 
-% komma% :,      Root ;
-% tjuohkkis% :%. Root ;
-% kolon% :%:     Root ;
-% sárggis% :%-   Root ; 
-% násti% :%*     Root ; 
-
-* * *
-
-<small>This (part of) documentation was generated from [src/transcriptions/transcriptor-numbers-digit2text.lexc](https://github.com/giellalt/lang-tlh/blob/main/src/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
-
----
-
-
-
 We describe here how abbreviations are in Klingon are read out, e.g.
 for text-to-speech systems.
 
@@ -757,6 +738,20 @@ For example:
 * * *
 
 <small>This (part of) documentation was generated from [src/transcriptions/transcriptor-abbrevs2text.lexc](https://github.com/giellalt/lang-tlh/blob/main/src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
+
+---
+
+
+
+% komma% :,      Root ;
+% tjuohkkis% :%. Root ;
+% kolon% :%:     Root ;
+% sárggis% :%-   Root ; 
+% násti% :%*     Root ; 
+
+* * *
+
+<small>This (part of) documentation was generated from [src/transcriptions/transcriptor-numbers-digit2text.lexc](https://github.com/giellalt/lang-tlh/blob/main/src/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
 
 ---
 
@@ -798,7 +793,6 @@ CLB
 LEFT
 RIGHT
 WEB
-QMARK
 PPUNCT
 PUNCT
 
@@ -912,9 +906,6 @@ Sem/Txt
 
 HUMAN
 
-HAB-ACTOR
-HAB-ACTOR-NOT-HUMAN
-
 PROP-ATTR
 PROP-SUR
 
@@ -1003,8 +994,6 @@ INITIAL
 ### Sets for word or not
 
 WORD
-REAL-WORD
-REAL-WORD-NOT-ABBR
 NOT-COMMA
 
 ### Case sets
@@ -1063,75 +1052,7 @@ expression **WORD - premodifiers**.
 ### Grammarchecker sets
 
 * * *
-
-<small>This (part of) documentation was generated from [tools/grammarcheckers/grammarchecker.cg3](https://github.com/giellalt/lang-tlh/blob/main/tools/grammarcheckers/grammarchecker.cg3)</small>
-
----
-
-# Grammar checker tokenisation for tlh
-
-Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
-Then just:
-```
-$ make
-$ echo "ja, ja" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
-```
-
-More usage examples:
-```
-$ echo "Juos gorreválggain lea (dárbbašlaš) deavdit gáibádusa boasttu olmmoš, man mielde lahtuid." | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
-$ echo "(gáfe) 'ja' ja 3. ja? ц jaja ukjend \"ukjend\"" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
-$ echo "márffibiillagáffe" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
-```
-
-Pmatch documentation:
-<https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstPmatch>
-
-Characters which have analyses in the lexicon, but can appear without spaces
-before/after, that is, with no context conditions, and adjacent to words:
-* Punct contains ASCII punctuation marks
-* The symbol after m-dash is soft-hyphen `U+00AD`
-* The symbol following {•} is byte-order-mark / zero-width no-break space
-`U+FEFF`.
-
-Whitespace contains ASCII white space and
-the List contains some unicode white space characters
-* En Quad U+2000 to Zero-Width Joiner U+200d'
-* Narrow No-Break Space U+202F
-* Medium Mathematical Space U+205F
-* Word joiner U+2060
-
-Apart from what's in our morphology, there are
-1) unknown word-like forms, and
-2) unmatched strings
-We want to give 1) a match, but let 2) be treated specially by hfst-tokenise -a
-* select extended latin symbols
-* select symbols
-* various symbols from Private area (probably Microsoft),
-so far:
-* U+F0B7 for "x in box"
-
-TODO: Could use something like this, but built-in's don't include šžđčŋ:
-
-Simply give an empty reading when something is unknown:
-hfst-tokenise --giella-cg will treat such empty analyses as unknowns, and
-remove empty analyses from other readings. Empty readings are also
-legal in CG, they get a default baseform equal to the wordform, but
-no tag to check, so it's safer to let hfst-tokenise handle them.
-
-Finally we mark as a token any sequence making up a:
-* known word in context
-* unknown (OOV) token in context
-* sequence of word and punctuation
-* URL in context
-
-* * *
-
-<small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript](https://github.com/giellalt/lang-tlh/blob/main/tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript)</small>
-
----
-
-# Tokeniser for tlh
+<small>This (part of) documentation was generated from [tools/grammarcheckers/grammarchecker.cg3](https://github.com/giellalt/lang-tlh/blob/main/tools/grammarcheckers/grammarchecker.cg3)</small># Tokeniser for tlh
 
 Usage:
 ```
@@ -1143,7 +1064,7 @@ $ echo "márffibiillagáffe" | hfst-tokenise --giella-cg tokeniser-disamb-gt-des
 ```
 
 Pmatch documentation:
-<https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstPmatch>
+<https://github.com/hfst/hfst/wiki/HfstPmatch>
 
 Characters which have analyses in the lexicon, but can appear without spaces
 before/after, that is, with no context conditions, and adjacent to words:
@@ -1191,6 +1112,69 @@ Finally we mark as a token any sequence making up a:
 * * *
 
 <small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-disamb-gt-desc.pmscript](https://github.com/giellalt/lang-tlh/blob/main/tools/tokenisers/tokeniser-disamb-gt-desc.pmscript)</small>
+
+---
+
+# Grammar checker tokenisation for tlh
+
+Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
+Then just:
+```
+$ make
+$ echo "ja, ja" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
+```
+
+More usage examples:
+```
+$ echo "Juos gorreválggain lea (dárbbašlaš) deavdit gáibádusa boasttu olmmoš, man mielde lahtuid." | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
+$ echo "(gáfe) 'ja' ja 3. ja? ц jaja ukjend \"ukjend\"" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
+$ echo "márffibiillagáffe" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
+```
+
+Pmatch documentation:
+<https://github.com/hfst/hfst/wiki/HfstPmatch>
+
+Characters which have analyses in the lexicon, but can appear without spaces
+before/after, that is, with no context conditions, and adjacent to words:
+* Punct contains ASCII punctuation marks
+* The symbol after m-dash is soft-hyphen `U+00AD`
+* The symbol following {•} is byte-order-mark / zero-width no-break space
+`U+FEFF`.
+
+Whitespace contains ASCII white space and
+the List contains some unicode white space characters
+* En Quad U+2000 to Zero-Width Joiner U+200d'
+* Narrow No-Break Space U+202F
+* Medium Mathematical Space U+205F
+* Word joiner U+2060
+
+Apart from what's in our morphology, there are
+1) unknown word-like forms, and
+2) unmatched strings
+We want to give 1) a match, but let 2) be treated specially by hfst-tokenise -a
+* select extended latin symbols
+* select symbols
+* various symbols from Private area (probably Microsoft),
+so far:
+* U+F0B7 for "x in box"
+
+TODO: Could use something like this, but built-in's don't include šžđčŋ:
+
+Simply give an empty reading when something is unknown:
+hfst-tokenise --giella-cg will treat such empty analyses as unknowns, and
+remove empty analyses from other readings. Empty readings are also
+legal in CG, they get a default baseform equal to the wordform, but
+no tag to check, so it's safer to let hfst-tokenise handle them.
+
+Finally we mark as a token any sequence making up a:
+* known word in context
+* unknown (OOV) token in context
+* sequence of word and punctuation
+* URL in context
+
+* * *
+
+<small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript](https://github.com/giellalt/lang-tlh/blob/main/tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript)</small>
 
 ---
 
