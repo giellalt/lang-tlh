@@ -1,7 +1,7 @@
 Verbs
 Verbs in Klingon language are used for both actions and adjectival properties
 
-*Basic verbs examples:*
+* Basic verbs examples:*
 * *Qong* `Qong+V` (Eng. he/she/it/they sleep(s))
 * *jIQong* `Sg1+Qong+V` (Eng. I sleep)
 * *bIQong* `Sg2+Qong+V` (Eng. you sleep)

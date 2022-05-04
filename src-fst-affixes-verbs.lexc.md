@@ -2,7 +2,7 @@
 The Klingon language verbs inflect in persons with obligatory prefixes, then
 the verb stem and all the optional suffixes..
 
-*Verb prefixes examples:*
+* Verb prefixes examples:*
 * *jIQong* `1Sg+Qong+V` (Eng. I sleep)
 * *cholegh* `Sg2+Sg1O+legh+V` (Eng. you see me)
 
@@ -29,26 +29,26 @@ definiteness is just a suffix
 
 qualification the suffix
 
-*verbal qualifications examples:*
+* verbal qualifications examples:*
 * *leghchu’* `3Sg+legh+V+Foc/chu` (Eng. he sees chu’)
 
 Aspects are coded in suffixes
 
-*Verbal aspects examples:*
+* Verbal aspects examples:*
 * *leghpu’* `3Sg+legh+V+Perf` (Eng. he finished seeing)
 
 Verbs can have honorific markers
 
-*Verbal honorifics examples:*
+* Verbal honorifics examples:*
 * *leghneS* `3Sg+legh+V+Honor` (Eng. he sees honorably)
 
 And some other markers too
 
-*Verb others examples:*
+* Verb others examples:*
 * *leghDI’* `3Sg+legh+V+Foc/DI’` (Eng. he sees DI’)
 Verbs can always be derived into nouns with wI’:
 
-*Deverbal nominals examples:*
+* Deverbal nominals examples:*
 * *leghwI’* `3Sg+legh+V+V→N+Sg+Nom` (Eng. his seeing)
 
 * * *

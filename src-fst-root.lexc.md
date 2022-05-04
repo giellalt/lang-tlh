@@ -129,7 +129,7 @@ word classes.
 The verbs require obligatory prefix that is the personal inflection or
 imperative mood
 
-*Klingon verb example examples:*
+* Klingon verb example examples:*
 * *Qong* `3Sg+Qong+V` (Eng. sleeps)
 
 * * *
