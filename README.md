@@ -4,6 +4,8 @@ The Klingon morphology and tools
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-tlh)](https://github.com/giellalt/lang-tlh/issues)
 [![Build Status](https://divvun-tc.thetc.se/api/github/v1/repository/giellalt/lang-tlh/main/badge.svg)](https://github.com/giellalt/lang-tlh/actions)
 [![License](https://img.shields.io/github/license/giellalt/lang-tlh)](https://github.com/giellalt/lang-tlh/blob/main/LICENSE)
+[![Desktop speller download](https://img.shields.io/badge/download%40latest-desktop--bhfst-brightgreen)](https://pahkat.uit.no/main/download/speller-tlh?platform=desktop&channel=nightly)
+[![Mobile speller download](https://img.shields.io/badge/download%40latest-mobile--bhfst-brightgreen)](https://pahkat.uit.no/main/download/speller-tlh?platform=mbile&channel=nightly)
 
 This repository contains finite state source files for the Klingon language,
 for building morphological analysers, proofing tools
