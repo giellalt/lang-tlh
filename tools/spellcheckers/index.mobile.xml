@@ -2,7 +2,7 @@
 <hfstspeller dtdversion="1.0" hfstversion="3">
   <info>
     <locale>tlh</locale>
-    <title>Giellatekno/Divvun/UiT fst-based speller for Klingon</title>
+    <title>Klingon</title>
     <description>This is an fst-based speller for Klingon. It is based
     on the normative subset of the morphological analyser for Klingon.
     The source code can be found at:
