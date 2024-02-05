@@ -213,6 +213,7 @@ gt_CONFIG_FILES
 ##########################################################
 ##### BEGIN: Add language-specific list of files to ######
 ########## be processed by autoconf below here: ##########
+AC_CONFIG_FILES([tools/spellcheckers/index.Piqd.xml])
 
 ############ END: Language-specific scripts. #############
 
