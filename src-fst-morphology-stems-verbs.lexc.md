@@ -15,6 +15,3 @@ Verbs in Klingon language are used for both actions and adjectival properties
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/verbs.lexc](https://github.com/giellalt/lang-tlh/blob/main/src/fst/morphology/stems/verbs.lexc)</small>
-
----
-
