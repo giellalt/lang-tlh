@@ -4,7 +4,7 @@
 ![Lemma count](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-tlh%2Fgh-pages%2Flemmacount.json)
 [![License](https://img.shields.io/github/license/giellalt/lang-tlh)](https://github.com/giellalt/lang-tlh/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-tlh)](https://github.com/giellalt/lang-tlh/issues)
-[![Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-tlh/main/badge.svg)](https://github.com/giellalt/lang-tlh/actions)
+[![Build Status](https://builds.giellalt.org/api/badge/lang-tlh?label=CI)](https://builds.giellalt.org/pipelines/lang-tlh/builds/latest)
 
 This page documents the work on the **Klingon language model**. This analyser was mainly set up as a dummy language for testing our infrastructure.
 
