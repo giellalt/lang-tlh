@@ -1,15 +1,2 @@
-```geojson
-{
-  "type": "Feature",
-  "properties": {
-    "name": "Klingon",
-    "radius": 200,
-    "marker-color": "#ff4444",
-    "marker-size": "large"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [null, null]
-  }
-}
-```
+*tlhingan Hol* is mainly spoken on *Qo’noS* and geojson maps do not support
+extraterrestrial coordinates yet.
