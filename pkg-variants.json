@@ -1,0 +1,12 @@
+{
+  "dialects": null,
+  "areas": null,
+  "orthographies": null,
+  "writing_systems": [
+    {
+      "code": "Piqd",
+      "has_speller": true,
+      "has_grammar_checker": false
+    }
+  ]
+}
